@@ -86,7 +86,7 @@ export interface SelectProps<T = SelectValue> extends AbstractSelectProps {
   removeIcon?: React.ReactNode;
   clearIcon?: React.ReactNode;
   menuItemSelectedIcon?: React.ReactNode;
-  placement: string;
+  placement?: string;
 }
 
 export interface OptionProps {
