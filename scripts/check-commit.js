@@ -1,13 +1,10 @@
 /* eslint-disable import/no-dynamic-require, no-console */
 const chalk = require('chalk');
 const path = require('path');
-const fetch = require('node-fetch');
 const simpleGit = require('simple-git/promise');
 
 const cwd = process.cwd();
 const git = simpleGit(cwd);
-
-const { version } = require(path.resolve(cwd, 'package.json'));
 
 function exitProcess(code = 1) {
   console.log(''); // Keep an empty line here to make looks good~
@@ -30,16 +27,6 @@ async function checkCommit({ files }) {
     exitProcess();
   }
 }
-
-// async function checkRemote() {
-//   const { remote } = await git.fetch('origin', 'master');
-//   if (remote.indexOf('ant-design/ant-design') === -1) {
-//     console.log(
-//       chalk.yellow('😓 Your remote origin is not ant-design/ant-design, did you fork it?'),
-//     );
-//     exitProcess();
-//   }
-// }
 
 async function checkAll() {
   const status = await git.status();
