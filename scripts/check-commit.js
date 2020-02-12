@@ -1,6 +1,5 @@
 /* eslint-disable import/no-dynamic-require, no-console */
 const chalk = require('chalk');
-const path = require('path');
 const simpleGit = require('simple-git/promise');
 
 const cwd = process.cwd();
