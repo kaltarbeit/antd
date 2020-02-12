@@ -1,5 +1,5 @@
 {
-  "name": "@kaltarbeit/antd",
+  "name": "antd",
   "version": "3.26.9-ksd.1",
   "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
@@ -253,7 +253,7 @@
     "react-dom": ">=16.0.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/kaltarbeit"
   },
   "bundlesize": [
     {
