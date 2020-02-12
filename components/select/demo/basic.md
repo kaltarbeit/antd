@@ -24,8 +24,8 @@ function handleChange(value) {
 
 ReactDOM.render(
   <div>
-    <Select defaultValue="lucy" style={{ width: 120 }} onChange={handleChange}>
-      <Option value="jack">Jack</Option>
+    <Select defaultValue="lucy" style={{ width: 120 }} placement="topLeft" onChange={handleChange}>
+      <Option value="jack">Jack1</Option>
       <Option value="lucy">Lucy</Option>
       <Option value="disabled" disabled>
         Disabled

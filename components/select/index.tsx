@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
-import RcSelect, { Option, OptGroup } from 'rc-select';
+import RcSelect, { Option, OptGroup } from '@kaltarbeit/rc-select';
 import classNames from 'classnames';
 import omit from 'omit.js';
 import { ConfigConsumer, ConfigConsumerProps, RenderEmptyHandler } from '../config-provider';
@@ -14,7 +14,7 @@ export interface AbstractSelectProps {
   prefixCls?: string;
   className?: string;
   showAction?: string | string[];
-  size?: (typeof SelectSizes)[number];
+  size?: typeof SelectSizes[number];
   notFoundContent?: React.ReactNode | null;
   transitionName?: string;
   choiceTransitionName?: string;
@@ -58,7 +58,7 @@ const ModeOptions = tuple(
   'combobox',
   'SECRET_COMBOBOX_MODE_DO_NOT_USE',
 );
-export type ModeOption = (typeof ModeOptions)[number];
+export type ModeOption = typeof ModeOptions[number];
 export interface SelectProps<T = SelectValue> extends AbstractSelectProps {
   value?: T;
   defaultValue?: T;
@@ -86,6 +86,7 @@ export interface SelectProps<T = SelectValue> extends AbstractSelectProps {
   removeIcon?: React.ReactNode;
   clearIcon?: React.ReactNode;
   menuItemSelectedIcon?: React.ReactNode;
+  placement: string;
 }
 
 export interface OptionProps {
@@ -116,6 +117,7 @@ const SelectPropTypes = {
   transitionName: PropTypes.string,
   choiceTransitionName: PropTypes.string,
   id: PropTypes.string,
+  placement: PropTypes.string,
 };
 
 export default class Select<T = SelectValue> extends React.Component<SelectProps<T>, {}> {
@@ -207,6 +209,7 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
       clearIcon,
       menuItemSelectedIcon,
       showArrow,
+      placement,
       ...restProps
     } = this.props;
     const rest = omit(restProps, ['inputIcon']);
@@ -259,6 +262,8 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
           })
         : menuItemSelectedIcon)) || <Icon type="check" className={`${prefixCls}-selected-icon`} />;
 
+    console.log('placement', placement);
+
     return (
       <RcSelect
         inputIcon={this.renderSuffixIcon(prefixCls)}
@@ -273,6 +278,7 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
         optionLabelProp={optionLabelProp || 'children'}
         notFoundContent={this.getNotFoundContent(renderEmpty)}
         getPopupContainer={getPopupContainer || getContextPopupContainer}
+        placement={placement}
         ref={this.saveSelect}
       />
     );

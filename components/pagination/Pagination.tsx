@@ -1,6 +1,6 @@
 import * as React from 'react';
-import RcPagination from 'rc-pagination';
-import enUS from 'rc-pagination/lib/locale/en_US';
+import RcPagination from '@kaltarbeit/rc-pagination';
+import enUS from '@kaltarbeit/rc-pagination/lib/locale/en_US';
 import classNames from 'classnames';
 import MiniSelect from './MiniSelect';
 import Icon from '../icon';
@@ -45,14 +45,14 @@ export interface PaginationConfig extends PaginationProps {
 export type PaginationLocale = any;
 
 export default class Pagination extends React.Component<PaginationProps, {}> {
-  getIconsProps = (prefixCls: string) => {
+  getIconsProps = (prefixCls: string, locale: any) => {
     const prevIcon = (
-      <a className={`${prefixCls}-item-link`}>
+      <a title={locale.prev_page} className={`${prefixCls}-item-link`}>
         <Icon type="left" />
       </a>
     );
     const nextIcon = (
-      <a className={`${prefixCls}-item-link`}>
+      <a title={locale.next_page} className={`${prefixCls}-item-link`}>
         <Icon type="right" />
       </a>
     );
@@ -104,7 +104,7 @@ export default class Pagination extends React.Component<PaginationProps, {}> {
               {...restProps}
               prefixCls={prefixCls}
               selectPrefixCls={selectPrefixCls}
-              {...this.getIconsProps(prefixCls)}
+              {...this.getIconsProps(prefixCls, locale)}
               className={classNames(className, { mini: isSmall })}
               selectComponentClass={isSmall ? MiniSelect : Select}
               locale={locale}

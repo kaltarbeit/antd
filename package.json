@@ -1,6 +1,6 @@
 {
-  "name": "antd",
-  "version": "3.26.9",
+  "name": "@kaltarbeit/antd",
+  "version": "3.26.9-ksd.1",
   "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
     "ant",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/kaltarbeit/ant-design"
   },
   "license": "MIT",
   "contributors": [
@@ -121,11 +121,11 @@
     "rc-mentions": "~0.4.0",
     "rc-menu": "~7.5.1",
     "rc-notification": "~3.3.1",
-    "rc-pagination": "~1.20.11",
+    "@kaltarbeit/rc-pagination": "~1.20.13-ksd.3",
     "rc-progress": "~2.5.0",
     "rc-rate": "~2.5.0",
     "rc-resize-observer": "^0.1.0",
-    "rc-select": "~9.2.0",
+    "@kaltarbeit/rc-select": "~9.2.3-ksd.2",
     "rc-slider": "~8.7.1",
     "rc-steps": "~3.5.0",
     "rc-switch": "~1.9.0",
@@ -254,7 +254,7 @@
     "react-dom": ">=16.0.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "bundlesize": [
     {
