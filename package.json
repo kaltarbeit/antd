@@ -253,7 +253,7 @@
     "react-dom": ">=16.0.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kaltarbeit"
+    "registry": "https://npm.pkg.github.com/@kaltarbeit"
   },
   "bundlesize": [
     {
