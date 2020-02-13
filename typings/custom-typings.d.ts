@@ -12,7 +12,8 @@ declare module 'rc-calendar*';
 
 declare module 'rc-time-picker*';
 
-declare module 'rc-pagination/*';
+declare module '@kaltarbeit/rc-pagination';
+declare module '@kaltarbeit/rc-pagination/*';
 
 declare module 'omit.js';
 
@@ -23,6 +24,7 @@ declare module 'rc-util*';
 declare module 'css-animation*';
 
 declare module 'rc-select';
+declare module '@kaltarbeit/rc-select';
 
 declare module 'rc-cascader';
 

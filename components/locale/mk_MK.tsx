@@ -1,4 +1,4 @@
-import Pagination from 'rc-pagination/lib/locale/mk_MK';
+import Pagination from '@kaltarbeit/rc-pagination/lib/locale/mk_MK';
 import DatePicker from '../date-picker/locale/mk_MK';
 import TimePicker from '../time-picker/locale/mk_MK';
 import Calendar from '../calendar/locale/mk_MK';
