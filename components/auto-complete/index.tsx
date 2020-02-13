@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Option, OptGroup } from '@kaltarbeit/rc-select';
+import { Option, OptGroup } from 'rc-select';
 import classNames from 'classnames';
 import InputElement from './InputElement';
 import Input, { InputProps } from '../input';
