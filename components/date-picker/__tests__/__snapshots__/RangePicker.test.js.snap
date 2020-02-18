@@ -18,7 +18,7 @@ exports[`RangePicker customize separator 1`] = `
     <span
       class="ant-calendar-range-picker-separator"
     >
-       test 
+       test
     </span>
     <input
       class="ant-calendar-range-picker-input"
@@ -81,9 +81,7 @@ exports[`RangePicker show month panel according to value 1`] = `
                 />
               </div>
             </div>
-            <div
-              style="outline:none"
-            >
+            <div>
               <div
                 class="ant-calendar-header"
               >
@@ -816,9 +814,7 @@ exports[`RangePicker show month panel according to value 1`] = `
                 />
               </div>
             </div>
-            <div
-              style="outline:none"
-            >
+            <div>
               <div
                 class="ant-calendar-header"
               >
