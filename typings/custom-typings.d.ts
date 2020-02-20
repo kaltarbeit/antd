@@ -67,7 +67,7 @@ declare module 'rc-steps';
 
 declare module 'rc-switch';
 
-declare module 'rc-table';
+declare module '@kaltarbeit/rc-table';
 
 declare module 'rc-tree-select';
 

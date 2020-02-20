@@ -1,7 +1,7 @@
 /* eslint-disable prefer-spread */
 import * as React from 'react';
 import omit from 'omit.js';
-import RcTable, { INTERNAL_COL_DEFINE } from 'rc-table';
+import RcTable, { INTERNAL_COL_DEFINE } from '@kaltarbeit/rc-table';
 import * as PropTypes from 'prop-types';
 import classNames from 'classnames';
 import shallowEqual from 'shallowequal';
