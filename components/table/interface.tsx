@@ -171,6 +171,7 @@ export interface TableProps<T> {
   dataSource?: T[];
   components?: TableComponents;
   columns?: ColumnProps<T>[];
+  caption?: string;
   rowKey?: string | ((record: T, index: number) => string);
   rowClassName?: (record: T, index: number) => string;
   expandedRowRender?: (

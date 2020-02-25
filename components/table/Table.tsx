@@ -142,6 +142,7 @@ class Table<T> extends React.Component<InternalTableProps<T>, TableState<T>> {
   static propTypes = {
     dataSource: PropTypes.array,
     columns: PropTypes.array,
+    caption: PropTypes.string,
     prefixCls: PropTypes.string,
     useFixedHeader: PropTypes.bool,
     rowSelection: PropTypes.object,
