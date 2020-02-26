@@ -6,135 +6,17 @@ exports[`renders ./components/pagination/demo/basic.md correctly 1`] = `
   unselectable="unselectable"
 >
   <li
-    aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Previous Page"
+      aria-disabled="true"
     >
-      <i
-        aria-label="icon: left"
-        class="anticon anticon-left"
-      >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="left"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-          />
-        </svg>
-      </i>
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-    tabindex="0"
-  >
-    <a
-      title="1페이지"
-    >
-      1
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-2"
-    tabindex="0"
-  >
-    <a
-      title="2페이지"
-    >
-      2
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-3"
-    tabindex="0"
-  >
-    <a
-      title="3페이지"
-    >
-      3
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-4"
-    tabindex="0"
-  >
-    <a
-      title="4페이지"
-    >
-      4
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-5"
-    tabindex="0"
-  >
-    <a
-      title="5페이지"
-    >
-      5
-    </a>
-  </li>
-  <li
-    aria-disabled="false"
-    class=" ant-pagination-next"
-    tabindex="0"
-  >
-    <a
-      class="ant-pagination-item-link"
-      title="Next Page"
-    >
-      <i
-        aria-label="icon: right"
-        class="anticon anticon-right"
-      >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="right"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-          />
-        </svg>
-      </i>
-    </a>
-  </li>
-</ul>
-`;
-
-exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
-<div>
-  <ul
-    class="ant-pagination"
-    unselectable="unselectable"
-  >
-    <li
-      aria-disabled="false"
-      class=" ant-pagination-prev"
-      tabindex="0"
-    >
-      <a
+      <span
         class="ant-pagination-item-link"
-        title="Previous Page"
       >
         <i
-          aria-label="icon: left"
           class="anticon anticon-left"
+          title="Previous Page"
         >
           <svg
             aria-hidden="true"
@@ -151,118 +33,73 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
             />
           </svg>
         </i>
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-1"
-      tabindex="0"
+      </span>
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+  >
+    <a
+      title="현재 페이지"
     >
-      <a
-        title="1페이지"
-      >
-        1
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-2"
-      tabindex="0"
+      1
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-2"
+  >
+    <a
+      href="#none"
+      title="2페이지"
     >
-      <a
-        title="2페이지"
-      >
-        2
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
-      tabindex="0"
+      2
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-3"
+  >
+    <a
+      href="#none"
+      title="3페이지"
     >
-      <a
-        title="3페이지"
-      >
-        3
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
+      3
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-4"
+  >
+    <a
+      href="#none"
+      title="4페이지"
     >
-      <a
-        title="4페이지"
-      >
-        4
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
-      tabindex="0"
+      4
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-5"
+  >
+    <a
+      href="#none"
+      title="5페이지"
     >
-      <a
-        title="5페이지"
-      >
-        5
-      </a>
-    </li>
-    <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
-      tabindex="0"
-      title="Next 5 Pages"
+      5
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" ant-pagination-next"
+    tabindex="0"
+  >
+    <a
+      aria-disabled="true"
+      href="#none"
     >
-      <a
+      <span
         class="ant-pagination-item-link"
-      >
-        <div
-          class="ant-pagination-item-container"
-        >
-          <i
-            aria-label="icon: double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
-          >
-            <svg
-              aria-hidden="true"
-              class=""
-              data-icon="double-right"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
-            >
-              <path
-                d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
-              />
-            </svg>
-          </i>
-          <span
-            class="ant-pagination-item-ellipsis"
-          >
-            •••
-          </span>
-        </div>
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-50"
-      tabindex="0"
-    >
-      <a
-        title="50페이지"
-      >
-        50
-      </a>
-    </li>
-    <li
-      aria-disabled="false"
-      class=" ant-pagination-next"
-      tabindex="0"
-    >
-      <a
-        class="ant-pagination-item-link"
-        title="Next Page"
       >
         <i
-          aria-label="icon: right"
           class="anticon anticon-right"
+          title="Next Page"
         >
           <svg
             aria-hidden="true"
@@ -279,6 +116,180 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
             />
           </svg>
         </i>
+      </span>
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
+<div>
+  <ul
+    class="ant-pagination"
+    unselectable="unselectable"
+  >
+    <li
+      class=" ant-pagination-prev"
+    >
+      <a
+        aria-disabled="false"
+        href="#none"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <i
+            class="anticon anticon-left"
+            title="Previous Page"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+              />
+            </svg>
+          </i>
+        </span>
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-1"
+    >
+      <a
+        href="#none"
+        title="1페이지"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-2"
+    >
+      <a
+        href="#none"
+        title="2페이지"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+    >
+      <a
+        title="현재 페이지"
+      >
+        3
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-4"
+    >
+      <a
+        href="#none"
+        title="4페이지"
+      >
+        4
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+    >
+      <a
+        href="#none"
+        title="5페이지"
+      >
+        5
+      </a>
+    </li>
+    <li
+      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    >
+      <a
+        href="#none"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <div
+            class="ant-pagination-item-container"
+          >
+            <i
+              class="anticon anticon-double-right ant-pagination-item-link-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="double-right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
+                />
+              </svg>
+            </i>
+            <span
+              class="ant-pagination-item-ellipsis"
+            >
+              •••
+            </span>
+          </div>
+        </span>
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-50"
+    >
+      <a
+        href="#none"
+        title="50페이지"
+      >
+        50
+      </a>
+    </li>
+    <li
+      aria-disabled="false"
+      class=" ant-pagination-next"
+      tabindex="0"
+    >
+      <a
+        aria-disabled="false"
+        href="#none"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
@@ -314,7 +325,6 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
             unselectable="on"
           >
             <i
-              aria-label="icon: down"
               class="anticon anticon-down ant-select-arrow-icon"
             >
               <svg
@@ -343,104 +353,23 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="false"
       class=" ant-pagination-prev"
-      tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Previous Page"
+        aria-disabled="false"
+        href="#none"
       >
-        <i
-          aria-label="icon: left"
-          class="anticon anticon-left"
-        >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="left"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-            />
-          </svg>
-        </i>
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-1"
-      tabindex="0"
-    >
-      <a
-        title="1페이지"
-      >
-        1
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-2"
-      tabindex="0"
-    >
-      <a
-        title="2페이지"
-      >
-        2
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
-      tabindex="0"
-    >
-      <a
-        title="3페이지"
-      >
-        3
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
-    >
-      <a
-        title="4페이지"
-      >
-        4
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
-      tabindex="0"
-    >
-      <a
-        title="5페이지"
-      >
-        5
-      </a>
-    </li>
-    <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
-      tabindex="0"
-      title="Next 5 Pages"
-    >
-      <a
-        class="ant-pagination-item-link"
-      >
-        <div
-          class="ant-pagination-item-container"
+        <span
+          class="ant-pagination-item-link"
         >
           <i
-            aria-label="icon: double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="anticon anticon-left"
+            title="Previous Page"
           >
             <svg
               aria-hidden="true"
               class=""
-              data-icon="double-right"
+              data-icon="left"
               fill="currentColor"
               focusable="false"
               height="1em"
@@ -448,23 +377,106 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
               width="1em"
             >
               <path
-                d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
               />
             </svg>
           </i>
-          <span
-            class="ant-pagination-item-ellipsis"
+        </span>
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-1"
+    >
+      <a
+        href="#none"
+        title="1페이지"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-2"
+    >
+      <a
+        href="#none"
+        title="2페이지"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+    >
+      <a
+        title="현재 페이지"
+      >
+        3
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-4"
+    >
+      <a
+        href="#none"
+        title="4페이지"
+      >
+        4
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+    >
+      <a
+        href="#none"
+        title="5페이지"
+      >
+        5
+      </a>
+    </li>
+    <li
+      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    >
+      <a
+        href="#none"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <div
+            class="ant-pagination-item-container"
           >
-            •••
-          </span>
-        </div>
+            <i
+              class="anticon anticon-double-right ant-pagination-item-link-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="double-right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
+                />
+              </svg>
+            </i>
+            <span
+              class="ant-pagination-item-ellipsis"
+            >
+              •••
+            </span>
+          </div>
+        </span>
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-50"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="50페이지"
       >
         50
@@ -476,28 +488,32 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
       tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Next Page"
+        aria-disabled="false"
+        href="#none"
       >
-        <i
-          aria-label="icon: right"
-          class="anticon anticon-right"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
           >
-            <path
-              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
@@ -533,7 +549,6 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
             unselectable="on"
           >
             <i
-              aria-label="icon: down"
               class="anticon anticon-down ant-select-arrow-icon"
             >
               <svg
@@ -565,259 +580,18 @@ exports[`renders ./components/pagination/demo/controlled.md correctly 1`] = `
   unselectable="unselectable"
 >
   <li
-    aria-disabled="false"
     class=" ant-pagination-prev"
-    tabindex="0"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Previous Page"
-    >
-      <i
-        aria-label="icon: left"
-        class="anticon anticon-left"
-      >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="left"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-          />
-        </svg>
-      </i>
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-1"
-    tabindex="0"
-  >
-    <a
-      title="1페이지"
-    >
-      1
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-2"
-    tabindex="0"
-  >
-    <a
-      title="2페이지"
-    >
-      2
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
-    tabindex="0"
-  >
-    <a
-      title="3페이지"
-    >
-      3
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-4"
-    tabindex="0"
-  >
-    <a
-      title="4페이지"
-    >
-      4
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-5"
-    tabindex="0"
-  >
-    <a
-      title="5페이지"
-    >
-      5
-    </a>
-  </li>
-  <li
-    aria-disabled="false"
-    class=" ant-pagination-next"
-    tabindex="0"
-  >
-    <a
-      class="ant-pagination-item-link"
-      title="Next Page"
-    >
-      <i
-        aria-label="icon: right"
-        class="anticon anticon-right"
-      >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="right"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-          />
-        </svg>
-      </i>
-    </a>
-  </li>
-</ul>
-`;
-
-exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
-<ul
-  class="ant-pagination"
-  unselectable="unselectable"
->
-  <li
-    aria-disabled="true"
-    class="ant-pagination-disabled ant-pagination-prev"
-  >
-    <a>
-      Previous
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-    tabindex="0"
-  >
-    <a
-      title="1페이지"
-    >
-      1
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-2"
-    tabindex="0"
-  >
-    <a
-      title="2페이지"
-    >
-      2
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-3"
-    tabindex="0"
-  >
-    <a
-      title="3페이지"
-    >
-      3
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-4"
-    tabindex="0"
-  >
-    <a
-      title="4페이지"
-    >
-      4
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
-    tabindex="0"
-  >
-    <a
-      title="5페이지"
-    >
-      5
-    </a>
-  </li>
-  <li
-    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
-    tabindex="0"
-    title="Next 5 Pages"
-  >
-    <a
-      class="ant-pagination-item-link"
-    >
-      <div
-        class="ant-pagination-item-container"
-      >
-        <i
-          aria-label="icon: double-right"
-          class="anticon anticon-double-right ant-pagination-item-link-icon"
-        >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="double-right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
-            />
-          </svg>
-        </i>
-        <span
-          class="ant-pagination-item-ellipsis"
-        >
-          •••
-        </span>
-      </div>
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-50"
-    tabindex="0"
-  >
-    <a
-      title="50페이지"
-    >
-      50
-    </a>
-  </li>
-  <li
-    aria-disabled="false"
-    class=" ant-pagination-next"
-    tabindex="0"
-  >
-    <a>
-      Next
-    </a>
-  </li>
-</ul>
-`;
-
-exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
-<div>
-  <ul
-    class="ant-pagination"
-    unselectable="unselectable"
-  >
-    <li
       aria-disabled="false"
-      class=" ant-pagination-prev"
-      tabindex="0"
+      href="#none"
     >
-      <a
+      <span
         class="ant-pagination-item-link"
-        title="Previous Page"
       >
         <i
-          aria-label="icon: left"
           class="anticon anticon-left"
+          title="Previous Page"
         >
           <svg
             aria-hidden="true"
@@ -834,71 +608,172 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
             />
           </svg>
         </i>
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-1"
-      tabindex="0"
+      </span>
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-1"
+  >
+    <a
+      href="#none"
+      title="1페이지"
     >
-      <a
-        title="1페이지"
+      1
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-2"
+  >
+    <a
+      href="#none"
+      title="2페이지"
+    >
+      2
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-3 ant-pagination-item-active"
+  >
+    <a
+      title="현재 페이지"
+    >
+      3
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-4"
+  >
+    <a
+      href="#none"
+      title="4페이지"
+    >
+      4
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-5"
+  >
+    <a
+      href="#none"
+      title="5페이지"
+    >
+      5
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" ant-pagination-next"
+    tabindex="0"
+  >
+    <a
+      aria-disabled="false"
+      href="#none"
+    >
+      <span
+        class="ant-pagination-item-link"
       >
-        1
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
-      tabindex="0"
+        <i
+          class="anticon anticon-right"
+          title="Next Page"
+        >
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="right"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+            />
+          </svg>
+        </i>
+      </span>
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
+<ul
+  class="ant-pagination"
+  unselectable="unselectable"
+>
+  <li
+    class="ant-pagination-disabled ant-pagination-prev"
+  >
+    <a
+      aria-disabled="true"
+    />
+    <a>
+      Previous
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+  >
+    <a
+      title="현재 페이지"
     >
-      <a
-        title="2페이지"
-      >
-        2
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-3"
-      tabindex="0"
+      1
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-2"
+  >
+    <a
+      href="#none"
+      title="2페이지"
     >
-      <a
-        title="3페이지"
-      >
-        3
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
+      2
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-3"
+  >
+    <a
+      href="#none"
+      title="3페이지"
     >
-      <a
-        title="4페이지"
-      >
-        4
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
-      tabindex="0"
+      3
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-4"
+  >
+    <a
+      href="#none"
+      title="4페이지"
     >
-      <a
-        title="5페이지"
-      >
-        5
-      </a>
-    </li>
-    <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
-      tabindex="0"
-      title="Next 5 Pages"
+      4
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+  >
+    <a
+      href="#none"
+      title="5페이지"
     >
-      <a
+      5
+    </a>
+  </li>
+  <li
+    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+  >
+    <a
+      href="#none"
+    >
+      <span
         class="ant-pagination-item-link"
       >
         <div
           class="ant-pagination-item-container"
         >
           <i
-            aria-label="icon: double-right"
             class="anticon anticon-double-right ant-pagination-item-link-icon"
           >
             <svg
@@ -922,13 +797,166 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
             •••
           </span>
         </div>
+      </span>
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-50"
+  >
+    <a
+      href="#none"
+      title="50페이지"
+    >
+      50
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" ant-pagination-next"
+    tabindex="0"
+  >
+    <a
+      aria-disabled="true"
+      href="#none"
+    />
+    <a>
+      Next
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
+<div>
+  <ul
+    class="ant-pagination"
+    unselectable="unselectable"
+  >
+    <li
+      class=" ant-pagination-prev"
+    >
+      <a
+        aria-disabled="false"
+        href="#none"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <i
+            class="anticon anticon-left"
+            title="Previous Page"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+              />
+            </svg>
+          </i>
+        </span>
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-1"
+    >
+      <a
+        href="#none"
+        title="1페이지"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
+    >
+      <a
+        title="현재 페이지"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-3"
+    >
+      <a
+        href="#none"
+        title="3페이지"
+      >
+        3
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-4"
+    >
+      <a
+        href="#none"
+        title="4페이지"
+      >
+        4
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+    >
+      <a
+        href="#none"
+        title="5페이지"
+      >
+        5
+      </a>
+    </li>
+    <li
+      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    >
+      <a
+        href="#none"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <div
+            class="ant-pagination-item-container"
+          >
+            <i
+              class="anticon anticon-double-right ant-pagination-item-link-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="double-right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
+                />
+              </svg>
+            </i>
+            <span
+              class="ant-pagination-item-ellipsis"
+            >
+              •••
+            </span>
+          </div>
+        </span>
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-50"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="50페이지"
       >
         50
@@ -940,28 +968,32 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
       tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Next Page"
+        aria-disabled="false"
+        href="#none"
       >
-        <i
-          aria-label="icon: right"
-          class="anticon anticon-right"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
           >
-            <path
-              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
@@ -984,104 +1016,23 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="false"
       class=" ant-pagination-prev"
-      tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Previous Page"
+        aria-disabled="false"
+        href="#none"
       >
-        <i
-          aria-label="icon: left"
-          class="anticon anticon-left"
-        >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="left"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-            />
-          </svg>
-        </i>
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-1"
-      tabindex="0"
-    >
-      <a
-        title="1페이지"
-      >
-        1
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
-      tabindex="0"
-    >
-      <a
-        title="2페이지"
-      >
-        2
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-3"
-      tabindex="0"
-    >
-      <a
-        title="3페이지"
-      >
-        3
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
-    >
-      <a
-        title="4페이지"
-      >
-        4
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
-      tabindex="0"
-    >
-      <a
-        title="5페이지"
-      >
-        5
-      </a>
-    </li>
-    <li
-      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
-      tabindex="0"
-      title="Next 5 Pages"
-    >
-      <a
-        class="ant-pagination-item-link"
-      >
-        <div
-          class="ant-pagination-item-container"
+        <span
+          class="ant-pagination-item-link"
         >
           <i
-            aria-label="icon: double-right"
-            class="anticon anticon-double-right ant-pagination-item-link-icon"
+            class="anticon anticon-left"
+            title="Previous Page"
           >
             <svg
               aria-hidden="true"
               class=""
-              data-icon="double-right"
+              data-icon="left"
               fill="currentColor"
               focusable="false"
               height="1em"
@@ -1089,23 +1040,106 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
               width="1em"
             >
               <path
-                d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
               />
             </svg>
           </i>
-          <span
-            class="ant-pagination-item-ellipsis"
+        </span>
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-1"
+    >
+      <a
+        href="#none"
+        title="1페이지"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
+    >
+      <a
+        title="현재 페이지"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-3"
+    >
+      <a
+        href="#none"
+        title="3페이지"
+      >
+        3
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-4"
+    >
+      <a
+        href="#none"
+        title="4페이지"
+      >
+        4
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+    >
+      <a
+        href="#none"
+        title="5페이지"
+      >
+        5
+      </a>
+    </li>
+    <li
+      class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+    >
+      <a
+        href="#none"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <div
+            class="ant-pagination-item-container"
           >
-            •••
-          </span>
-        </div>
+            <i
+              class="anticon anticon-double-right ant-pagination-item-link-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="double-right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
+                />
+              </svg>
+            </i>
+            <span
+              class="ant-pagination-item-ellipsis"
+            >
+              •••
+            </span>
+          </div>
+        </span>
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-50"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="50페이지"
       >
         50
@@ -1117,28 +1151,32 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
       tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Next Page"
+        aria-disabled="false"
+        href="#none"
       >
-        <i
-          aria-label="icon: right"
-          class="anticon anticon-right"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
           >
-            <path
-              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
@@ -1166,49 +1204,50 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Previous Page"
+        aria-disabled="true"
       >
-        <i
-          aria-label="icon: left"
-          class="anticon anticon-left"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="left"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-left"
+            title="Previous Page"
           >
-            <path
-              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-      tabindex="0"
     >
       <a
-        title="1페이지"
+        title="현재 페이지"
       >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="2페이지"
       >
         2
@@ -1216,9 +1255,9 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="3페이지"
       >
         3
@@ -1226,9 +1265,9 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="4페이지"
       >
         4
@@ -1236,9 +1275,9 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="5페이지"
       >
         5
@@ -1250,28 +1289,32 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
       tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Next Page"
+        aria-disabled="true"
+        href="#none"
       >
-        <i
-          aria-label="icon: right"
-          class="anticon anticon-right"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
           >
-            <path
-              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
   </ul>
@@ -1280,49 +1323,50 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Previous Page"
+        aria-disabled="true"
       >
-        <i
-          aria-label="icon: left"
-          class="anticon anticon-left"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="left"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-left"
+            title="Previous Page"
           >
-            <path
-              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-      tabindex="0"
     >
       <a
-        title="1페이지"
+        title="현재 페이지"
       >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="2페이지"
       >
         2
@@ -1330,9 +1374,9 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="3페이지"
       >
         3
@@ -1340,9 +1384,9 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="4페이지"
       >
         4
@@ -1350,9 +1394,9 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="5페이지"
       >
         5
@@ -1364,28 +1408,32 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
       tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Next Page"
+        aria-disabled="true"
+        href="#none"
       >
-        <i
-          aria-label="icon: right"
-          class="anticon anticon-right"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
           >
-            <path
-              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
@@ -1421,7 +1469,6 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
             unselectable="on"
           >
             <i
-              aria-label="icon: down"
               class="anticon anticon-down ant-select-arrow-icon"
             >
               <svg
@@ -1463,16 +1510,141 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
       Total 50 items
     </li>
     <li
-      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
+        aria-disabled="true"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <i
+            class="anticon anticon-left"
+            title="Previous Page"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+              />
+            </svg>
+          </i>
+        </span>
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+    >
+      <a
+        title="현재 페이지"
+      >
+        1
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-2"
+    >
+      <a
+        href="#none"
+        title="2페이지"
+      >
+        2
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-3"
+    >
+      <a
+        href="#none"
+        title="3페이지"
+      >
+        3
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-4"
+    >
+      <a
+        href="#none"
+        title="4페이지"
+      >
+        4
+      </a>
+    </li>
+    <li
+      class="ant-pagination-item ant-pagination-item-5"
+    >
+      <a
+        href="#none"
+        title="5페이지"
+      >
+        5
+      </a>
+    </li>
+    <li
+      aria-disabled="false"
+      class=" ant-pagination-next"
+      tabindex="0"
+    >
+      <a
+        aria-disabled="true"
+        href="#none"
+      >
+        <span
+          class="ant-pagination-item-link"
+        >
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
+<ul
+  class="ant-pagination"
+  unselectable="unselectable"
+>
+  <li
+    class=" ant-pagination-prev"
+  >
+    <a
+      aria-disabled="false"
+      href="#none"
+    >
+      <span
         class="ant-pagination-item-link"
-        title="Previous Page"
       >
         <i
-          aria-label="icon: left"
           class="anticon anticon-left"
+          title="Previous Page"
         >
           <svg
             aria-hidden="true"
@@ -1489,70 +1661,171 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
             />
           </svg>
         </i>
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-      tabindex="0"
+      </span>
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-1"
+  >
+    <a
+      href="#none"
+      title="1페이지"
     >
-      <a
-        title="1페이지"
-      >
-        1
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-2"
-      tabindex="0"
+      1
+    </a>
+  </li>
+  <li
+    class="ant-pagination-jump-prev ant-pagination-jump-prev-custom-icon"
+  >
+    <a
+      href="#none"
     >
-      <a
-        title="2페이지"
-      >
-        2
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-3"
-      tabindex="0"
-    >
-      <a
-        title="3페이지"
-      >
-        3
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
-    >
-      <a
-        title="4페이지"
-      >
-        4
-      </a>
-    </li>
-    <li
-      class="ant-pagination-item ant-pagination-item-5"
-      tabindex="0"
-    >
-      <a
-        title="5페이지"
-      >
-        5
-      </a>
-    </li>
-    <li
-      aria-disabled="false"
-      class=" ant-pagination-next"
-      tabindex="0"
-    >
-      <a
+      <span
         class="ant-pagination-item-link"
-        title="Next Page"
+      >
+        <div
+          class="ant-pagination-item-container"
+        >
+          <i
+            class="anticon anticon-double-left ant-pagination-item-link-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="double-left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M272.9 512l265.4-339.1c4.1-5.2.4-12.9-6.3-12.9h-77.3c-4.9 0-9.6 2.3-12.6 6.1L186.8 492.3a31.99 31.99 0 0 0 0 39.5l255.3 326.1c3 3.9 7.7 6.1 12.6 6.1H532c6.7 0 10.4-7.7 6.3-12.9L272.9 512zm304 0l265.4-339.1c4.1-5.2.4-12.9-6.3-12.9h-77.3c-4.9 0-9.6 2.3-12.6 6.1L490.8 492.3a31.99 31.99 0 0 0 0 39.5l255.3 326.1c3 3.9 7.7 6.1 12.6 6.1H836c6.7 0 10.4-7.7 6.3-12.9L576.9 512z"
+              />
+            </svg>
+          </i>
+          <span
+            class="ant-pagination-item-ellipsis"
+          >
+            •••
+          </span>
+        </div>
+      </span>
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-4 ant-pagination-item-after-jump-prev"
+  >
+    <a
+      href="#none"
+      title="4페이지"
+    >
+      4
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-5"
+  >
+    <a
+      href="#none"
+      title="5페이지"
+    >
+      5
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-6 ant-pagination-item-active"
+  >
+    <a
+      title="현재 페이지"
+    >
+      6
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-7"
+  >
+    <a
+      href="#none"
+      title="7페이지"
+    >
+      7
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-8 ant-pagination-item-before-jump-next"
+  >
+    <a
+      href="#none"
+      title="8페이지"
+    >
+      8
+    </a>
+  </li>
+  <li
+    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
+  >
+    <a
+      href="#none"
+    >
+      <span
+        class="ant-pagination-item-link"
+      >
+        <div
+          class="ant-pagination-item-container"
+        >
+          <i
+            class="anticon anticon-double-right ant-pagination-item-link-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="double-right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
+              />
+            </svg>
+          </i>
+          <span
+            class="ant-pagination-item-ellipsis"
+          >
+            •••
+          </span>
+        </div>
+      </span>
+    </a>
+  </li>
+  <li
+    class="ant-pagination-item ant-pagination-item-50"
+  >
+    <a
+      href="#none"
+      title="50페이지"
+    >
+      50
+    </a>
+  </li>
+  <li
+    aria-disabled="false"
+    class=" ant-pagination-next"
+    tabindex="0"
+  >
+    <a
+      aria-disabled="false"
+      href="#none"
+    >
+      <span
+        class="ant-pagination-item-link"
       >
         <i
-          aria-label="icon: right"
           class="anticon anticon-right"
+          title="Next Page"
         >
           <svg
             aria-hidden="true"
@@ -1569,221 +1842,7 @@ exports[`renders ./components/pagination/demo/mini.md correctly 1`] = `
             />
           </svg>
         </i>
-      </a>
-    </li>
-  </ul>
-</div>
-`;
-
-exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
-<ul
-  class="ant-pagination"
-  unselectable="unselectable"
->
-  <li
-    aria-disabled="false"
-    class=" ant-pagination-prev"
-    tabindex="0"
-  >
-    <a
-      class="ant-pagination-item-link"
-      title="Previous Page"
-    >
-      <i
-        aria-label="icon: left"
-        class="anticon anticon-left"
-      >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="left"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-          />
-        </svg>
-      </i>
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-1"
-    tabindex="0"
-  >
-    <a
-      title="1페이지"
-    >
-      1
-    </a>
-  </li>
-  <li
-    class="ant-pagination-jump-prev ant-pagination-jump-prev-custom-icon"
-    tabindex="0"
-    title="Previous 5 Pages"
-  >
-    <a
-      class="ant-pagination-item-link"
-    >
-      <div
-        class="ant-pagination-item-container"
-      >
-        <i
-          aria-label="icon: double-left"
-          class="anticon anticon-double-left ant-pagination-item-link-icon"
-        >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="double-left"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M272.9 512l265.4-339.1c4.1-5.2.4-12.9-6.3-12.9h-77.3c-4.9 0-9.6 2.3-12.6 6.1L186.8 492.3a31.99 31.99 0 0 0 0 39.5l255.3 326.1c3 3.9 7.7 6.1 12.6 6.1H532c6.7 0 10.4-7.7 6.3-12.9L272.9 512zm304 0l265.4-339.1c4.1-5.2.4-12.9-6.3-12.9h-77.3c-4.9 0-9.6 2.3-12.6 6.1L490.8 492.3a31.99 31.99 0 0 0 0 39.5l255.3 326.1c3 3.9 7.7 6.1 12.6 6.1H836c6.7 0 10.4-7.7 6.3-12.9L576.9 512z"
-            />
-          </svg>
-        </i>
-        <span
-          class="ant-pagination-item-ellipsis"
-        >
-          •••
-        </span>
-      </div>
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-4 ant-pagination-item-after-jump-prev"
-    tabindex="0"
-  >
-    <a
-      title="4페이지"
-    >
-      4
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-5"
-    tabindex="0"
-  >
-    <a
-      title="5페이지"
-    >
-      5
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-6 ant-pagination-item-active"
-    tabindex="0"
-  >
-    <a
-      title="6페이지"
-    >
-      6
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-7"
-    tabindex="0"
-  >
-    <a
-      title="7페이지"
-    >
-      7
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-8 ant-pagination-item-before-jump-next"
-    tabindex="0"
-  >
-    <a
-      title="8페이지"
-    >
-      8
-    </a>
-  </li>
-  <li
-    class="ant-pagination-jump-next ant-pagination-jump-next-custom-icon"
-    tabindex="0"
-    title="Next 5 Pages"
-  >
-    <a
-      class="ant-pagination-item-link"
-    >
-      <div
-        class="ant-pagination-item-container"
-      >
-        <i
-          aria-label="icon: double-right"
-          class="anticon anticon-double-right ant-pagination-item-link-icon"
-        >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="double-right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
-          >
-            <path
-              d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 0 0 188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 0 0 492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"
-            />
-          </svg>
-        </i>
-        <span
-          class="ant-pagination-item-ellipsis"
-        >
-          •••
-        </span>
-      </div>
-    </a>
-  </li>
-  <li
-    class="ant-pagination-item ant-pagination-item-50"
-    tabindex="0"
-  >
-    <a
-      title="50페이지"
-    >
-      50
-    </a>
-  </li>
-  <li
-    aria-disabled="false"
-    class=" ant-pagination-next"
-    tabindex="0"
-  >
-    <a
-      class="ant-pagination-item-link"
-      title="Next Page"
-    >
-      <i
-        aria-label="icon: right"
-        class="anticon anticon-right"
-      >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="right"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
-        >
-          <path
-            d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-          />
-        </svg>
-      </i>
+      </span>
     </a>
   </li>
 </ul>
@@ -1794,33 +1853,36 @@ exports[`renders ./components/pagination/demo/simple.md correctly 1`] = `
   class="ant-pagination ant-pagination-simple "
 >
   <li
-    aria-disabled="false"
     class=" ant-pagination-prev"
     tabindex="0"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Previous Page"
+      aria-disabled="false"
+      href="#none"
     >
-      <i
-        aria-label="icon: left"
-        class="anticon anticon-left"
+      <span
+        class="ant-pagination-item-link"
       >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="left"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
+        <i
+          class="anticon anticon-left"
+          title="Previous Page"
         >
-          <path
-            d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-          />
-        </svg>
-      </i>
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="left"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+            />
+          </svg>
+        </i>
+      </span>
     </a>
   </li>
   <li
@@ -1844,13 +1906,12 @@ exports[`renders ./components/pagination/demo/simple.md correctly 1`] = `
     class=" ant-pagination-next"
     tabindex="0"
   >
-    <a
+    <span
       class="ant-pagination-item-link"
-      title="Next Page"
     >
       <i
-        aria-label="icon: right"
         class="anticon anticon-right"
+        title="Next Page"
       >
         <svg
           aria-hidden="true"
@@ -1867,7 +1928,7 @@ exports[`renders ./components/pagination/demo/simple.md correctly 1`] = `
           />
         </svg>
       </i>
-    </a>
+    </span>
   </li>
 </ul>
 `;
@@ -1884,49 +1945,50 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
       Total 85 items
     </li>
     <li
-      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Previous Page"
+        aria-disabled="true"
       >
-        <i
-          aria-label="icon: left"
-          class="anticon anticon-left"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="left"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-left"
+            title="Previous Page"
           >
-            <path
-              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-      tabindex="0"
     >
       <a
-        title="1페이지"
+        title="현재 페이지"
       >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="2페이지"
       >
         2
@@ -1934,9 +1996,9 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="3페이지"
       >
         3
@@ -1944,9 +2006,9 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="4페이지"
       >
         4
@@ -1954,9 +2016,9 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="5페이지"
       >
         5
@@ -1968,28 +2030,32 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
       tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Next Page"
+        aria-disabled="true"
+        href="#none"
       >
-        <i
-          aria-label="icon: right"
-          class="anticon anticon-right"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
           >
-            <path
-              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
   </ul>
@@ -2004,49 +2070,50 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
       1-20 of 85 items
     </li>
     <li
-      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Previous Page"
+        aria-disabled="true"
       >
-        <i
-          aria-label="icon: left"
-          class="anticon anticon-left"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="left"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-left"
+            title="Previous Page"
           >
-            <path
-              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-      tabindex="0"
     >
       <a
-        title="1페이지"
+        title="현재 페이지"
       >
         1
       </a>
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-2"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="2페이지"
       >
         2
@@ -2054,9 +2121,9 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-3"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="3페이지"
       >
         3
@@ -2064,9 +2131,9 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-4"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="4페이지"
       >
         4
@@ -2074,9 +2141,9 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
     </li>
     <li
       class="ant-pagination-item ant-pagination-item-5"
-      tabindex="0"
     >
       <a
+        href="#none"
         title="5페이지"
       >
         5
@@ -2088,28 +2155,32 @@ exports[`renders ./components/pagination/demo/total.md correctly 1`] = `
       tabindex="0"
     >
       <a
-        class="ant-pagination-item-link"
-        title="Next Page"
+        aria-disabled="true"
+        href="#none"
       >
-        <i
-          aria-label="icon: right"
-          class="anticon anticon-right"
+        <span
+          class="ant-pagination-item-link"
         >
-          <svg
-            aria-hidden="true"
-            class=""
-            data-icon="right"
-            fill="currentColor"
-            focusable="false"
-            height="1em"
-            viewBox="64 64 896 896"
-            width="1em"
+          <i
+            class="anticon anticon-right"
+            title="Next Page"
           >
-            <path
-              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-            />
-          </svg>
-        </i>
+            <svg
+              aria-hidden="true"
+              class=""
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+              />
+            </svg>
+          </i>
+        </span>
       </a>
     </li>
   </ul>

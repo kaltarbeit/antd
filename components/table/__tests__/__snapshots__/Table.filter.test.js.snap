@@ -346,7 +346,6 @@ exports[`Table.filter renders filter correctly 1`] = `
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
                       class="anticon anticon-filter ant-dropdown-trigger"
                       tabindex="-1"
                       title="Filter menu"
@@ -659,7 +658,6 @@ exports[`Table.filter should support getPopupContainer 1`] = `
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
                       class="anticon anticon-filter ant-table-filter-open ant-dropdown-trigger ant-dropdown-open"
                       style=""
                       tabindex="-1"
@@ -878,7 +876,6 @@ exports[`Table.filter should support getPopupContainer from ConfigProvider 1`] =
                       </div>
                     </span>
                     <i
-                      aria-label="icon: filter"
                       class="anticon anticon-filter ant-table-filter-open ant-dropdown-trigger ant-dropdown-open"
                       style=""
                       tabindex="-1"

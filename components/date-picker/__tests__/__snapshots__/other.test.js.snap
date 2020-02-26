@@ -986,7 +986,6 @@ exports[`Picker format by locale date 1`] = `
       value="2000 年 1 月 1 日"
     />
     <i
-      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-calendar-picker-clear"
       tabindex="-1"
     >
@@ -1006,7 +1005,6 @@ exports[`Picker format by locale date 1`] = `
       </svg>
     </i>
     <i
-      aria-label="图标: calendar"
       class="anticon anticon-calendar ant-calendar-picker-icon"
     >
       <svg
@@ -1041,7 +1039,6 @@ exports[`Picker format by locale dateTime 1`] = `
       value="2000 年 1 月 1 日 0 时 0 分 0 秒"
     />
     <i
-      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-calendar-picker-clear"
       tabindex="-1"
     >
@@ -1061,7 +1058,6 @@ exports[`Picker format by locale dateTime 1`] = `
       </svg>
     </i>
     <i
-      aria-label="图标: calendar"
       class="anticon anticon-calendar ant-calendar-picker-icon"
     >
       <svg
@@ -1095,7 +1091,6 @@ exports[`Picker format by locale month 1`] = `
       value="2000 年 1 月"
     />
     <i
-      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-calendar-picker-clear"
       tabindex="-1"
     >
@@ -1115,7 +1110,6 @@ exports[`Picker format by locale month 1`] = `
       </svg>
     </i>
     <i
-      aria-label="图标: calendar"
       class="anticon anticon-calendar ant-calendar-picker-icon"
     >
       <svg
@@ -1151,7 +1145,6 @@ exports[`Picker format by locale week 1`] = `
       value="2000 年 52 周"
     />
     <i
-      aria-label="图标: close-circle"
       class="anticon anticon-close-circle ant-calendar-picker-clear"
       tabindex="-1"
     >
@@ -1171,7 +1164,6 @@ exports[`Picker format by locale week 1`] = `
       </svg>
     </i>
     <i
-      aria-label="图标: calendar"
       class="anticon anticon-calendar ant-calendar-picker-icon"
     >
       <svg

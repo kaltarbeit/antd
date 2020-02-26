@@ -1030,7 +1030,6 @@ exports[`renders ./components/result/demo/customIcon.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: smile"
       class="anticon anticon-smile"
     >
       <svg
@@ -1086,7 +1085,6 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: close-circle"
       class="anticon anticon-close-circle"
     >
       <svg
@@ -1137,7 +1135,6 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
         class="ant-typography"
       >
         <i
-          aria-label="icon: close-circle"
           class="anticon anticon-close-circle"
           style="color:red"
         >
@@ -1168,7 +1165,6 @@ exports[`renders ./components/result/demo/error.md correctly 1`] = `
         class="ant-typography"
       >
         <i
-          aria-label="icon: close-circle"
           class="anticon anticon-close-circle"
           style="color:red"
         >
@@ -1228,7 +1224,6 @@ exports[`renders ./components/result/demo/info.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: exclamation-circle"
       class="anticon anticon-exclamation-circle"
     >
       <svg
@@ -1275,7 +1270,6 @@ exports[`renders ./components/result/demo/success.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: check-circle"
       class="anticon anticon-check-circle"
     >
       <svg
@@ -1335,7 +1329,6 @@ exports[`renders ./components/result/demo/warning.md correctly 1`] = `
     class="ant-result-icon"
   >
     <i
-      aria-label="icon: warning"
       class="anticon anticon-warning"
     >
       <svg

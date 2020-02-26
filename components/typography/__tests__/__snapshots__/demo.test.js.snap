@@ -292,7 +292,6 @@ exports[`renders ./components/typography/demo/interactive.md correctly 1`] = `
       tabindex="0"
     >
       <i
-        aria-label="icon: edit"
         class="anticon anticon-edit"
         role="button"
       >
@@ -325,7 +324,6 @@ exports[`renders ./components/typography/demo/interactive.md correctly 1`] = `
       tabindex="0"
     >
       <i
-        aria-label="icon: copy"
         class="anticon anticon-copy"
         role="button"
       >
@@ -358,7 +356,6 @@ exports[`renders ./components/typography/demo/interactive.md correctly 1`] = `
       tabindex="0"
     >
       <i
-        aria-label="icon: copy"
         class="anticon anticon-copy"
         role="button"
       >

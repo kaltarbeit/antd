@@ -57,7 +57,7 @@ describe('Table.pagination', () => {
 
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy']);
     wrapper
-      .find('Pager')
+      .find('Pager li a')
       .last()
       .simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
@@ -93,7 +93,7 @@ describe('Table.pagination', () => {
     expect(scrollToSpy).toHaveBeenCalledTimes(0);
 
     wrapper
-      .find('Pager')
+      .find('Pager li a')
       .last()
       .simulate('click');
     expect(scrollToSpy).toHaveBeenCalledTimes(1);
@@ -119,7 +119,7 @@ describe('Table.pagination', () => {
     );
 
     wrapper
-      .find('Pager')
+      .find('Pager li a')
       .last()
       .simulate('click');
 
@@ -166,7 +166,7 @@ describe('Table.pagination', () => {
     wrapper.update();
     expect(wrapper.find('.ant-pagination')).toHaveLength(1);
     expect(wrapper.find('.ant-pagination-item')).toHaveLength(2);
-    wrapper.find('.ant-pagination-item-2').simulate('click');
+    wrapper.find('.ant-pagination-item-2 a').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
     wrapper.setProps({ pagination: false });
     expect(wrapper.find('.ant-pagination')).toHaveLength(0);
@@ -254,7 +254,7 @@ describe('Table.pagination', () => {
 
     expect(wrapper.find('.ant-table-tbody tr.ant-table-row')).toHaveLength(data.length);
 
-    wrapper.find('.ant-pagination .ant-pagination-item-2').simulate('click');
+    wrapper.find('.ant-pagination .ant-pagination-item-2 a').simulate('click');
     expect(onChange.mock.calls[0][0].current).toBe(2);
 
     expect(wrapper.find('.ant-table-tbody tr.ant-table-row')).toHaveLength(data.length);

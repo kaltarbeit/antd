@@ -11,7 +11,6 @@ exports[`Menu should controlled collapse work 1`] = `
     style="padding-left: 24px;"
   >
     <i
-      aria-label="icon: pie-chart"
       class="anticon anticon-pie-chart"
     >
       <svg
@@ -47,7 +46,6 @@ exports[`Menu should controlled collapse work 2`] = `
     style="padding-left: 24px;"
   >
     <i
-      aria-label="icon: pie-chart"
       class="anticon anticon-pie-chart"
     >
       <svg

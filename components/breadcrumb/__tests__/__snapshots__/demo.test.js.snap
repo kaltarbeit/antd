@@ -109,7 +109,6 @@ exports[`renders ./components/breadcrumb/demo/overlay.md correctly 1`] = `
         </a>
       </span>
       <i
-        aria-label="icon: down"
         class="anticon anticon-down"
       >
         <svg
@@ -268,7 +267,6 @@ exports[`renders ./components/breadcrumb/demo/withIcon.md correctly 1`] = `
       href=""
     >
       <i
-        aria-label="icon: home"
         class="anticon anticon-home"
       >
         <svg
@@ -299,7 +297,6 @@ exports[`renders ./components/breadcrumb/demo/withIcon.md correctly 1`] = `
       href=""
     >
       <i
-        aria-label="icon: user"
         class="anticon anticon-user"
       >
         <svg

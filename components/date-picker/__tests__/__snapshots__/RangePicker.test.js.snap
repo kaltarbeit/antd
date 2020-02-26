@@ -28,7 +28,6 @@ exports[`RangePicker customize separator 1`] = `
       value=""
     />
     <i
-      aria-label="icon: calendar"
       class="anticon anticon-calendar ant-calendar-picker-icon"
     >
       <svg

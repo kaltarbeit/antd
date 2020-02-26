@@ -116,7 +116,6 @@ exports[`Breadcrumb should render a menu 1`] = `
         </a>
       </span>
       <i
-        aria-label="icon: down"
         class="anticon anticon-down"
       >
         <svg

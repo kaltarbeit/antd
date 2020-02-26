@@ -14,7 +14,6 @@ exports[`TimePicker not render clean icon when allowClear is false 1`] = `
     class="ant-time-picker-icon"
   >
     <i
-      aria-label="icon: clock-circle"
       class="anticon anticon-clock-circle ant-time-picker-clock-icon"
     >
       <svg
@@ -55,7 +54,6 @@ Array [
       class="ant-time-picker-icon"
     >
       <i
-        aria-label="icon: clock-circle"
         class="anticon anticon-clock-circle ant-time-picker-clock-icon"
       >
         <svg
@@ -78,7 +76,6 @@ Array [
       </i>
     </span>
     <i
-      aria-label="icon: close-circle"
       class="anticon anticon-close-circle ant-time-picker-clear"
       tabindex="-1"
     >

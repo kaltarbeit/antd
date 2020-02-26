@@ -46,7 +46,6 @@ exports[`Input allowClear should change type when click 1`] = `
             componentName="Icon"
           >
             <i
-              aria-label="icon: close-circle"
               className="anticon anticon-close-circle ant-input-clear-icon"
               onClick={[Function]}
               role="button"
@@ -478,7 +477,6 @@ exports[`Input.Search should support suffix 1`] = `
               componentName="Icon"
             >
               <i
-                aria-label="icon: search"
                 className="anticon anticon-search ant-input-search-icon"
                 onClick={[Function]}
                 tabIndex={-1}
@@ -568,7 +566,6 @@ exports[`TextArea allowClear should change type when click 1`] = `
           componentName="Icon"
         >
           <i
-            aria-label="icon: close-circle"
             className="anticon anticon-close-circle ant-input-textarea-clear-icon"
             onClick={[Function]}
             role="button"

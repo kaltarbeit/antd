@@ -20,7 +20,6 @@ exports[`renders ./components/page-header/demo/actions.md correctly 1`] = `
           tabindex="0"
         >
           <i
-            aria-label="icon: arrow-left"
             class="anticon anticon-arrow-left"
           >
             <svg
@@ -199,7 +198,6 @@ exports[`renders ./components/page-header/demo/actions.md correctly 1`] = `
           tabindex="0"
         >
           <i
-            aria-label="icon: arrow-left"
             class="anticon anticon-arrow-left"
           >
             <svg
@@ -381,7 +379,6 @@ exports[`renders ./components/page-header/demo/basic.md correctly 1`] = `
         tabindex="0"
       >
         <i
-          aria-label="icon: arrow-left"
           class="anticon anticon-arrow-left"
         >
           <svg
@@ -604,7 +601,6 @@ exports[`renders ./components/page-header/demo/content.md correctly 1`] = `
         type="button"
       >
         <i
-          aria-label="icon: ellipsis"
           class="anticon anticon-ellipsis"
           style="font-size:20px;vertical-align:top"
         >
@@ -720,7 +716,6 @@ exports[`renders ./components/page-header/demo/ghost.md correctly 1`] = `
           tabindex="0"
         >
           <i
-            aria-label="icon: arrow-left"
             class="anticon anticon-arrow-left"
           >
             <svg
@@ -904,7 +899,6 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
           tabindex="0"
         >
           <i
-            aria-label="icon: arrow-left"
             class="anticon anticon-arrow-left"
           >
             <svg
@@ -1157,7 +1151,6 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
                 class="ant-tabs-tab-prev-icon"
               >
                 <i
-                  aria-label="icon: left"
                   class="anticon anticon-left ant-tabs-tab-prev-icon-target"
                 >
                   <svg
@@ -1185,7 +1178,6 @@ exports[`renders ./components/page-header/demo/responsive.md correctly 1`] = `
                 class="ant-tabs-tab-next-icon"
               >
                 <i
-                  aria-label="icon: right"
                   class="anticon anticon-right ant-tabs-tab-next-icon-target"
                 >
                   <svg

@@ -34,49 +34,50 @@ exports[`List.pagination renders pagination correctly 1`] = `
       unselectable="unselectable"
     >
       <li
-        aria-disabled="true"
         class="ant-pagination-disabled ant-pagination-prev"
       >
         <a
-          class="ant-pagination-item-link"
-          title="Previous Page"
+          aria-disabled="true"
         >
-          <i
-            aria-label="icon: left"
-            class="anticon anticon-left"
+          <span
+            class="ant-pagination-item-link"
           >
-            <svg
-              aria-hidden="true"
-              class=""
-              data-icon="left"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
+            <i
+              class="anticon anticon-left"
+              title="Previous Page"
             >
-              <path
-                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-              />
-            </svg>
-          </i>
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="left"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                />
+              </svg>
+            </i>
+          </span>
         </a>
       </li>
       <li
         class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-        tabindex="0"
       >
         <a
-          title="1페이지"
+          title="현재 페이지"
         >
           1
         </a>
       </li>
       <li
         class="ant-pagination-item ant-pagination-item-2"
-        tabindex="0"
       >
         <a
+          href="#none"
           title="2페이지"
         >
           2
@@ -88,28 +89,32 @@ exports[`List.pagination renders pagination correctly 1`] = `
         tabindex="0"
       >
         <a
-          class="ant-pagination-item-link"
-          title="Next Page"
+          aria-disabled="true"
+          href="#none"
         >
-          <i
-            aria-label="icon: right"
-            class="anticon anticon-right"
+          <span
+            class="ant-pagination-item-link"
           >
-            <svg
-              aria-hidden="true"
-              class=""
-              data-icon="right"
-              fill="currentColor"
-              focusable="false"
-              height="1em"
-              viewBox="64 64 896 896"
-              width="1em"
+            <i
+              class="anticon anticon-right"
+              title="Next Page"
             >
-              <path
-                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-              />
-            </svg>
-          </i>
+              <svg
+                aria-hidden="true"
+                class=""
+                data-icon="right"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+                />
+              </svg>
+            </i>
+          </span>
         </a>
       </li>
     </ul>
@@ -123,40 +128,41 @@ exports[`List.pagination should change page size work 1`] = `
   unselectable="unselectable"
 >
   <li
-    aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Previous Page"
+      aria-disabled="true"
     >
-      <i
-        aria-label="icon: left"
-        class="anticon anticon-left"
+      <span
+        class="ant-pagination-item-link"
       >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="left"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
+        <i
+          class="anticon anticon-left"
+          title="Previous Page"
         >
-          <path
-            d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-          />
-        </svg>
-      </i>
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="left"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+            />
+          </svg>
+        </i>
+      </span>
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-    tabindex="0"
   >
     <a
-      title="1페이지"
+      title="현재 페이지"
     >
       1
     </a>
@@ -166,28 +172,31 @@ exports[`List.pagination should change page size work 1`] = `
     class="ant-pagination-disabled ant-pagination-next"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Next Page"
+      aria-disabled="true"
     >
-      <i
-        aria-label="icon: right"
-        class="anticon anticon-right"
+      <span
+        class="ant-pagination-item-link"
       >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="right"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
+        <i
+          class="anticon anticon-right"
+          title="Next Page"
         >
-          <path
-            d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-          />
-        </svg>
-      </i>
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="right"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+            />
+          </svg>
+        </i>
+      </span>
     </a>
   </li>
   <li
@@ -223,7 +232,6 @@ exports[`List.pagination should change page size work 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -254,40 +262,41 @@ exports[`List.pagination should change page size work 2`] = `
   unselectable="unselectable"
 >
   <li
-    aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Previous Page"
+      aria-disabled="true"
     >
-      <i
-        aria-label="icon: left"
-        class="anticon anticon-left"
+      <span
+        class="ant-pagination-item-link"
       >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="left"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
+        <i
+          class="anticon anticon-left"
+          title="Previous Page"
         >
-          <path
-            d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-          />
-        </svg>
-      </i>
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="left"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+            />
+          </svg>
+        </i>
+      </span>
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
-    tabindex="0"
   >
     <a
-      title="1페이지"
+      title="현재 페이지"
     >
       1
     </a>
@@ -297,28 +306,31 @@ exports[`List.pagination should change page size work 2`] = `
     class="ant-pagination-disabled ant-pagination-next"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Next Page"
+      aria-disabled="true"
     >
-      <i
-        aria-label="icon: right"
-        class="anticon anticon-right"
+      <span
+        class="ant-pagination-item-link"
       >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="right"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
+        <i
+          class="anticon anticon-right"
+          title="Next Page"
         >
-          <path
-            d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-          />
-        </svg>
-      </i>
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="right"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+            />
+          </svg>
+        </i>
+      </span>
     </a>
   </li>
   <li
@@ -355,7 +367,6 @@ exports[`List.pagination should change page size work 2`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg
@@ -440,40 +451,42 @@ exports[`List.pagination should default work 1`] = `
   unselectable="unselectable"
 >
   <li
-    aria-disabled="false"
     class=" ant-pagination-prev"
-    tabindex="0"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Previous Page"
+      aria-disabled="false"
+      href="#none"
     >
-      <i
-        aria-label="icon: left"
-        class="anticon anticon-left"
+      <span
+        class="ant-pagination-item-link"
       >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="left"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
+        <i
+          class="anticon anticon-left"
+          title="Previous Page"
         >
-          <path
-            d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
-          />
-        </svg>
-      </i>
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="left"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+            />
+          </svg>
+        </i>
+      </span>
     </a>
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-1"
-    tabindex="0"
   >
     <a
+      href="#none"
       title="1페이지"
     >
       1
@@ -481,10 +494,9 @@ exports[`List.pagination should default work 1`] = `
   </li>
   <li
     class="ant-pagination-item ant-pagination-item-2 ant-pagination-item-active"
-    tabindex="0"
   >
     <a
-      title="2페이지"
+      title="현재 페이지"
     >
       2
     </a>
@@ -494,28 +506,31 @@ exports[`List.pagination should default work 1`] = `
     class="ant-pagination-disabled ant-pagination-next"
   >
     <a
-      class="ant-pagination-item-link"
-      title="Next Page"
+      aria-disabled="false"
     >
-      <i
-        aria-label="icon: right"
-        class="anticon anticon-right"
+      <span
+        class="ant-pagination-item-link"
       >
-        <svg
-          aria-hidden="true"
-          class=""
-          data-icon="right"
-          fill="currentColor"
-          focusable="false"
-          height="1em"
-          viewBox="64 64 896 896"
-          width="1em"
+        <i
+          class="anticon anticon-right"
+          title="Next Page"
         >
-          <path
-            d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
-          />
-        </svg>
-      </i>
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="right"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+            />
+          </svg>
+        </i>
+      </span>
     </a>
   </li>
   <li
@@ -551,7 +566,6 @@ exports[`List.pagination should default work 1`] = `
           unselectable="on"
         >
           <i
-            aria-label="icon: down"
             class="anticon anticon-down ant-select-arrow-icon"
           >
             <svg

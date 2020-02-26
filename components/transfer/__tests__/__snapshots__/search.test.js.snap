@@ -51,7 +51,6 @@ exports[`Transfer.Search should show cross icon when input value exists 1`] = `
           componentName="Icon"
         >
           <i
-            aria-label="icon: search"
             className="anticon anticon-search"
           >
             <IconReact
@@ -137,7 +136,6 @@ exports[`Transfer.Search should show cross icon when input value exists 2`] = `
           componentName="Icon"
         >
           <i
-            aria-label="icon: close-circle"
             className="anticon anticon-close-circle"
           >
             <IconReact

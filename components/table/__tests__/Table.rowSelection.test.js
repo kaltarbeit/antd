@@ -100,7 +100,7 @@ describe('Table.rowSelection', () => {
     const wrapper = mount(createTable({ pagination: { pageSize: 2 } }));
 
     const checkboxAll = wrapper.find('SelectionCheckboxAll');
-    const pagers = wrapper.find('Pager');
+    const pagers = wrapper.find('Pager li a');
 
     checkboxAll.find('input').simulate('change', { target: { checked: true } });
     expect(checkboxAll.instance().state).toEqual({ checked: true, indeterminate: false });
@@ -462,7 +462,7 @@ describe('Table.rowSelection', () => {
       }),
     );
     wrapper
-      .find('Pager')
+      .find('Pager li a')
       .last()
       .simulate('click'); // switch to second page
     wrapper
@@ -737,9 +737,19 @@ describe('Table.rowSelection', () => {
   });
 
   it('clear selection className when remove `rowSelection`', () => {
-    const dataSource = [{ id: 1, name: 'Hello', age: 10 }, { id: 2, name: 'World', age: 30 }];
+    const dataSource = [
+      { id: 1, name: 'Hello', age: 10 },
+      { id: 2, name: 'World', age: 30 },
+    ];
 
-    const wrapper = mount(<Table columns={columns} dataSource={dataSource} rowSelection={{}} expandedRowRender={() => null} />);
+    const wrapper = mount(
+      <Table
+        columns={columns}
+        dataSource={dataSource}
+        rowSelection={{}}
+        expandedRowRender={() => null}
+      />,
+    );
     const checkboxes = wrapper.find('input');
     checkboxes.at(1).simulate('change', { target: { checked: true } });
 

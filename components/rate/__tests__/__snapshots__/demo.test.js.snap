@@ -20,7 +20,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -43,7 +42,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -78,7 +76,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -101,7 +98,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -136,7 +132,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -159,7 +154,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -194,7 +188,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -217,7 +210,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -252,7 +244,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -275,7 +266,6 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -320,7 +310,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -343,7 +332,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -378,7 +366,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -401,7 +388,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -436,7 +422,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -459,7 +444,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -494,7 +478,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -517,7 +500,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -552,7 +534,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -575,7 +556,6 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: heart"
             class="anticon anticon-heart"
           >
             <svg
@@ -856,7 +836,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -879,7 +858,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -914,7 +892,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -937,7 +914,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -972,7 +948,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -995,7 +970,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1030,7 +1004,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1053,7 +1026,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1088,7 +1060,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1111,7 +1082,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1158,7 +1128,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1181,7 +1150,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1216,7 +1184,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1239,7 +1206,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1274,7 +1240,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1297,7 +1262,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1332,7 +1296,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1355,7 +1318,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1390,7 +1352,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1413,7 +1374,6 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -1463,7 +1423,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1486,7 +1445,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1521,7 +1479,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1544,7 +1501,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1579,7 +1535,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1602,7 +1557,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1637,7 +1591,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1660,7 +1613,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1695,7 +1647,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1718,7 +1669,6 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1762,7 +1712,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1785,7 +1734,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1820,7 +1768,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1843,7 +1790,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1878,7 +1824,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1901,7 +1846,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1936,7 +1880,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1959,7 +1902,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -1994,7 +1936,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-first"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -2017,7 +1958,6 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         class="ant-rate-star-second"
       >
         <i
-          aria-label="icon: star"
           class="anticon anticon-star"
         >
           <svg
@@ -2062,7 +2002,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2085,7 +2024,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2120,7 +2058,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2143,7 +2080,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2178,7 +2114,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2201,7 +2136,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2236,7 +2170,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2259,7 +2192,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2294,7 +2226,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-first"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg
@@ -2317,7 +2248,6 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           class="ant-rate-star-second"
         >
           <i
-            aria-label="icon: star"
             class="anticon anticon-star"
           >
             <svg

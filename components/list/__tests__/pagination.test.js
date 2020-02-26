@@ -53,7 +53,7 @@ describe('List.pagination', () => {
 
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy']);
     wrapper
-      .find('Pager')
+      .find('Pager li a')
       .last()
       .simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
@@ -80,7 +80,7 @@ describe('List.pagination', () => {
     );
 
     wrapper
-      .find('Pager')
+      .find('Pager li a')
       .last()
       .simulate('click');
 
@@ -99,7 +99,7 @@ describe('List.pagination', () => {
     wrapper.update();
     expect(wrapper.find('.ant-pagination')).toHaveLength(1);
     expect(wrapper.find('.ant-pagination-item')).toHaveLength(2);
-    wrapper.find('.ant-pagination-item-2').simulate('click');
+    wrapper.find('.ant-pagination-item-2 a').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Jerry']);
     wrapper.setProps({ pagination: false });
     expect(wrapper.find('.ant-pagination')).toHaveLength(0);

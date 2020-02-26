@@ -51,7 +51,6 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: radius-upleft"
       class="anticon anticon-radius-upleft"
     >
       <svg
@@ -78,7 +77,6 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: radius-upright"
       class="anticon anticon-radius-upright"
     >
       <svg
@@ -109,7 +107,6 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: radius-bottomleft"
       class="anticon anticon-radius-bottomleft"
     >
       <svg
@@ -136,7 +133,6 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     type="button"
   >
     <i
-      aria-label="icon: radius-bottomright"
       class="anticon anticon-radius-bottomright"
     >
       <svg

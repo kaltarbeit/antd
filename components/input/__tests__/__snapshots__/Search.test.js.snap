@@ -19,7 +19,6 @@ exports[`Input.Search should support addonAfter 1`] = `
         class="ant-input-suffix"
       >
         <i
-          aria-label="icon: search"
           class="anticon anticon-search ant-input-search-icon"
           tabindex="-1"
         >
@@ -71,7 +70,6 @@ exports[`Input.Search should support addonAfter 2`] = `
         type="button"
       >
         <i
-          aria-label="icon: search"
           class="anticon anticon-search"
         >
           <svg
@@ -118,7 +116,6 @@ exports[`Input.Search should support addonAfter and suffix for loading 1`] = `
       >
         suffix
         <i
-          aria-label="icon: loading"
           class="anticon anticon-loading ant-input-search-icon"
         >
           <svg
@@ -176,7 +173,6 @@ exports[`Input.Search should support addonAfter and suffix for loading 2`] = `
         type="button"
       >
         <i
-          aria-label="icon: loading"
           class="anticon anticon-loading"
         >
           <svg
@@ -274,7 +270,6 @@ exports[`Input.Search should support invalid addonAfter 1`] = `
         type="button"
       >
         <i
-          aria-label="icon: search"
           class="anticon anticon-search"
         >
           <svg
@@ -311,7 +306,6 @@ exports[`Input.Search should support invalid suffix 1`] = `
     class="ant-input-suffix"
   >
     <i
-      aria-label="icon: search"
       class="anticon anticon-search ant-input-search-icon"
       tabindex="-1"
     >
@@ -347,7 +341,6 @@ exports[`Input.Search should support loading 1`] = `
     class="ant-input-suffix"
   >
     <i
-      aria-label="icon: loading"
       class="anticon anticon-loading ant-input-search-icon"
     >
       <svg
@@ -389,7 +382,6 @@ exports[`Input.Search should support loading 2`] = `
         type="button"
       >
         <i
-          aria-label="icon: loading"
           class="anticon anticon-loading"
         >
           <svg

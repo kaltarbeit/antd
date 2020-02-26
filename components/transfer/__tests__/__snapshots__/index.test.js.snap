@@ -100,7 +100,6 @@ exports[`Transfer should render correctly 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: right"
         class="anticon anticon-right"
       >
         <svg
@@ -125,7 +124,6 @@ exports[`Transfer should render correctly 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: left"
         class="anticon anticon-left"
       >
         <svg
@@ -290,7 +288,6 @@ exports[`Transfer should show sorted targetkey 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: right"
         class="anticon anticon-right"
       >
         <svg
@@ -315,7 +312,6 @@ exports[`Transfer should show sorted targetkey 1`] = `
       type="button"
     >
       <i
-        aria-label="icon: left"
         class="anticon anticon-left"
       >
         <svg
@@ -724,7 +720,6 @@ exports[`Transfer should support render value and label in item 1`] = `
                     componentName="Icon"
                   >
                     <i
-                      aria-label="icon: right"
                       className="anticon anticon-right"
                     >
                       <IconReact
@@ -779,7 +774,6 @@ exports[`Transfer should support render value and label in item 1`] = `
                     componentName="Icon"
                   >
                     <i
-                      aria-label="icon: left"
                       className="anticon anticon-left"
                     >
                       <IconReact

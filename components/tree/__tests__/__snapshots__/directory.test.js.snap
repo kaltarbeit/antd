@@ -14,7 +14,6 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -41,7 +40,6 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -79,7 +77,6 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
           class="ant-tree-switcher ant-tree-switcher_open"
         >
           <i
-            aria-label="icon: caret-down"
             class="anticon anticon-caret-down ant-tree-switcher-icon"
           >
             <svg
@@ -106,7 +103,6 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -151,7 +147,6 @@ exports[`Directory Tree DirectoryTree should expend all when use treeData and de
                 class="ant-tree-iconEle ant-tree-icon__customize"
               >
                 <i
-                  aria-label="icon: file"
                   class="anticon anticon-file"
                 >
                   <svg
@@ -198,7 +193,6 @@ exports[`Directory Tree defaultExpandAll 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -225,7 +219,6 @@ exports[`Directory Tree defaultExpandAll 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -270,7 +263,6 @@ exports[`Directory Tree defaultExpandAll 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -311,7 +303,6 @@ exports[`Directory Tree defaultExpandAll 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -347,7 +338,6 @@ exports[`Directory Tree defaultExpandAll 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -374,7 +364,6 @@ exports[`Directory Tree defaultExpandAll 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -419,7 +408,6 @@ exports[`Directory Tree defaultExpandAll 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -460,7 +448,6 @@ exports[`Directory Tree defaultExpandAll 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -505,7 +492,6 @@ exports[`Directory Tree defaultExpandParent 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -532,7 +518,6 @@ exports[`Directory Tree defaultExpandParent 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -566,7 +551,6 @@ exports[`Directory Tree defaultExpandParent 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -593,7 +577,6 @@ exports[`Directory Tree defaultExpandParent 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -636,7 +619,6 @@ exports[`Directory Tree expand click 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -663,7 +645,6 @@ exports[`Directory Tree expand click 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -708,7 +689,6 @@ exports[`Directory Tree expand click 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder"
               class="anticon anticon-folder"
             >
               <svg
@@ -749,7 +729,6 @@ exports[`Directory Tree expand click 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder"
               class="anticon anticon-folder"
             >
               <svg
@@ -785,7 +764,6 @@ exports[`Directory Tree expand click 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -812,7 +790,6 @@ exports[`Directory Tree expand click 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -855,7 +832,6 @@ exports[`Directory Tree expand click 2`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -882,7 +858,6 @@ exports[`Directory Tree expand click 2`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -916,7 +891,6 @@ exports[`Directory Tree expand click 2`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -943,7 +917,6 @@ exports[`Directory Tree expand click 2`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -986,7 +959,6 @@ exports[`Directory Tree expand double click 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1013,7 +985,6 @@ exports[`Directory Tree expand double click 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -1058,7 +1029,6 @@ exports[`Directory Tree expand double click 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder"
               class="anticon anticon-folder"
             >
               <svg
@@ -1099,7 +1069,6 @@ exports[`Directory Tree expand double click 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder"
               class="anticon anticon-folder"
             >
               <svg
@@ -1135,7 +1104,6 @@ exports[`Directory Tree expand double click 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1162,7 +1130,6 @@ exports[`Directory Tree expand double click 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -1205,7 +1172,6 @@ exports[`Directory Tree expand double click 2`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1232,7 +1198,6 @@ exports[`Directory Tree expand double click 2`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -1266,7 +1231,6 @@ exports[`Directory Tree expand double click 2`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1293,7 +1257,6 @@ exports[`Directory Tree expand double click 2`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -1336,7 +1299,6 @@ exports[`Directory Tree expand with state control click 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1363,7 +1325,6 @@ exports[`Directory Tree expand with state control click 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -1408,7 +1369,6 @@ exports[`Directory Tree expand with state control click 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder"
               class="anticon anticon-folder"
             >
               <svg
@@ -1453,7 +1413,6 @@ exports[`Directory Tree expand with state control doubleClick 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1480,7 +1439,6 @@ exports[`Directory Tree expand with state control doubleClick 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -1525,7 +1483,6 @@ exports[`Directory Tree expand with state control doubleClick 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder"
               class="anticon anticon-folder"
             >
               <svg
@@ -1570,7 +1527,6 @@ exports[`Directory Tree expandedKeys update 1`] = `
       class="ant-tree-switcher ant-tree-switcher_close"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1597,7 +1553,6 @@ exports[`Directory Tree expandedKeys update 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder"
           class="anticon anticon-folder"
         >
           <svg
@@ -1631,7 +1586,6 @@ exports[`Directory Tree expandedKeys update 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1658,7 +1612,6 @@ exports[`Directory Tree expandedKeys update 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -1703,7 +1656,6 @@ exports[`Directory Tree expandedKeys update 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder"
               class="anticon anticon-folder"
             >
               <svg
@@ -1744,7 +1696,6 @@ exports[`Directory Tree expandedKeys update 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder"
               class="anticon anticon-folder"
             >
               <svg
@@ -1789,7 +1740,6 @@ exports[`Directory Tree group select 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1816,7 +1766,6 @@ exports[`Directory Tree group select 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -1861,7 +1810,6 @@ exports[`Directory Tree group select 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -1902,7 +1850,6 @@ exports[`Directory Tree group select 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -1938,7 +1885,6 @@ exports[`Directory Tree group select 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -1965,7 +1911,6 @@ exports[`Directory Tree group select 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -2010,7 +1955,6 @@ exports[`Directory Tree group select 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2051,7 +1995,6 @@ exports[`Directory Tree group select 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2096,7 +2039,6 @@ exports[`Directory Tree group select 2`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -2123,7 +2065,6 @@ exports[`Directory Tree group select 2`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -2168,7 +2109,6 @@ exports[`Directory Tree group select 2`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2209,7 +2149,6 @@ exports[`Directory Tree group select 2`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2245,7 +2184,6 @@ exports[`Directory Tree group select 2`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -2272,7 +2210,6 @@ exports[`Directory Tree group select 2`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -2317,7 +2254,6 @@ exports[`Directory Tree group select 2`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2358,7 +2294,6 @@ exports[`Directory Tree group select 2`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2403,7 +2338,6 @@ exports[`Directory Tree selectedKeys update 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -2430,7 +2364,6 @@ exports[`Directory Tree selectedKeys update 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -2475,7 +2408,6 @@ exports[`Directory Tree selectedKeys update 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2516,7 +2448,6 @@ exports[`Directory Tree selectedKeys update 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2552,7 +2483,6 @@ exports[`Directory Tree selectedKeys update 1`] = `
       class="ant-tree-switcher ant-tree-switcher_open"
     >
       <i
-        aria-label="icon: caret-down"
         class="anticon anticon-caret-down ant-tree-switcher-icon"
       >
         <svg
@@ -2579,7 +2509,6 @@ exports[`Directory Tree selectedKeys update 1`] = `
         class="ant-tree-iconEle ant-tree-icon__customize"
       >
         <i
-          aria-label="icon: folder-open"
           class="anticon anticon-folder-open"
         >
           <svg
@@ -2624,7 +2553,6 @@ exports[`Directory Tree selectedKeys update 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
@@ -2665,7 +2593,6 @@ exports[`Directory Tree selectedKeys update 1`] = `
             class="ant-tree-iconEle ant-tree-icon__customize"
           >
             <i
-              aria-label="icon: folder-open"
               class="anticon anticon-folder-open"
             >
               <svg
