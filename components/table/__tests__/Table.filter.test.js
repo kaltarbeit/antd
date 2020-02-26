@@ -11,6 +11,7 @@ function getDropdownWrapper(wrapper) {
   return mount(
     wrapper
       .find('Trigger')
+      .first()
       .instance()
       .getComponent(),
   );
@@ -73,6 +74,7 @@ describe('Table.filter', () => {
     const dropdownWrapper = render(
       wrapper
         .find('Trigger')
+        .first()
         .instance()
         .getComponent(),
     );
@@ -93,6 +95,7 @@ describe('Table.filter', () => {
     const dropdownWrapper = render(
       wrapper
         .find('Trigger')
+        .first()
         .instance()
         .getComponent(),
     );
@@ -115,6 +118,7 @@ describe('Table.filter', () => {
     const dropdownWrapper = render(
       wrapper
         .find('Trigger')
+        .first()
         .instance()
         .getComponent(),
     );
@@ -489,7 +493,7 @@ describe('Table.filter', () => {
             .find('Checkbox')
             .at(0)
             .props().checked,
-        ).toEqual(true);
+        ).toEqual(false);
 
         jest.useRealTimers();
       });
