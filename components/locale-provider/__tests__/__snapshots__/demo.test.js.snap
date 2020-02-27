@@ -1857,59 +1857,6 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                               />
                             </svg>
                           </i>
-                          <div>
-                            <div
-                              class="ant-dropdown  ant-dropdown-placement-bottomRight  ant-dropdown-hidden"
-                            >
-                              <div
-                                class="ant-table-filter-dropdown"
-                              >
-                                <ul
-                                  class="ant-dropdown-menu ant-dropdown-menu-without-submenu ant-dropdown-menu-root ant-dropdown-menu-vertical"
-                                  role="menu"
-                                  tabindex="0"
-                                >
-                                  <li
-                                    class="ant-dropdown-menu-item"
-                                    role="menuitem"
-                                  >
-                                    <label
-                                      class="ant-checkbox-wrapper"
-                                    >
-                                      <span
-                                        class="ant-checkbox"
-                                      >
-                                        <input
-                                          class="ant-checkbox-input"
-                                          type="checkbox"
-                                        />
-                                        <span
-                                          class="ant-checkbox-inner"
-                                        />
-                                      </span>
-                                    </label>
-                                    <span>
-                                      filter1
-                                    </span>
-                                  </li>
-                                </ul>
-                                <div
-                                  class="ant-table-filter-dropdown-btns"
-                                >
-                                  <a
-                                    class="ant-table-filter-dropdown-link confirm"
-                                  >
-                                    OK
-                                  </a>
-                                  <a
-                                    class="ant-table-filter-dropdown-link clear"
-                                  >
-                                    Reset
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
                         </th>
                         <th
                           class="ant-table-row-cell-last"
