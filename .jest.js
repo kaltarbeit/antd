@@ -17,9 +17,6 @@ module.exports = {
     '^react-dnd-touch-backend$': 'react-dnd-touch-backend/dist/cjs',
     '^react-dnd-test-backend$': 'react-dnd-test-backend/dist/cjs',
     '^react-dnd-test-utils$': 'react-dnd-test-utils/dist/cjs',
-    '^rc-pagination$': '@kaltarbeit/rc-pagination',
-    '^rc-pagination/(.*)': '@kaltarbeit/rc-pagination/$1',
-    '^rc-select$': '@kaltarbeit/rc-select',
   },
   testPathIgnorePatterns: ['/node_modules/', 'dekko', 'node'],
   transform: {
