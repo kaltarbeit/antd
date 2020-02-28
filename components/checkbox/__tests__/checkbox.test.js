@@ -15,10 +15,10 @@ describe('Checkbox', () => {
 
     const wrapper = mount(<Checkbox onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} />);
 
-    wrapper.find('label').simulate('mouseenter');
+    wrapper.find('.ant-checkbox-wrapper').simulate('mouseenter');
     expect(onMouseEnter).toHaveBeenCalled();
 
-    wrapper.find('label').simulate('mouseleave');
+    wrapper.find('.ant-checkbox-wrapper').simulate('mouseleave');
     expect(onMouseLeave).toHaveBeenCalled();
   });
 
