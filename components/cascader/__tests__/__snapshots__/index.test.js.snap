@@ -638,6 +638,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
   mask={false}
   onAlign={[Function]}
   onBlur={[Function]}
+  onFocus={[Function]}
   onMouseDown={[Function]}
   prefixCls="ant-cascader-menus"
   style={Object {}}
@@ -702,6 +703,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
             className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
             hiddenClassName="ant-cascader-menus-hidden"
             onBlur={[Function]}
+            onFocus={[Function]}
             onMouseDown={[Function]}
             prefixCls="ant-cascader-menus"
             style={Object {}}
@@ -710,6 +712,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
             <div
               className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
               onBlur={[Function]}
+              onFocus={[Function]}
               onMouseDown={[Function]}
               style={Object {}}
             >
@@ -1086,6 +1089,7 @@ exports[`Cascader should render not found content 1`] = `
   mask={false}
   onAlign={[Function]}
   onBlur={[Function]}
+  onFocus={[Function]}
   onMouseDown={[Function]}
   prefixCls="ant-cascader-menus"
   style={Object {}}
@@ -1150,6 +1154,7 @@ exports[`Cascader should render not found content 1`] = `
             className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
             hiddenClassName="ant-cascader-menus-hidden"
             onBlur={[Function]}
+            onFocus={[Function]}
             onMouseDown={[Function]}
             prefixCls="ant-cascader-menus"
             style={Object {}}
@@ -1158,6 +1163,7 @@ exports[`Cascader should render not found content 1`] = `
             <div
               className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
               onBlur={[Function]}
+              onFocus={[Function]}
               onMouseDown={[Function]}
               style={Object {}}
             >
@@ -1414,6 +1420,7 @@ exports[`Cascader should show not found content when options.length is 0 1`] = `
   mask={false}
   onAlign={[Function]}
   onBlur={[Function]}
+  onFocus={[Function]}
   onMouseDown={[Function]}
   prefixCls="ant-cascader-menus"
   style={Object {}}
@@ -1478,6 +1485,7 @@ exports[`Cascader should show not found content when options.length is 0 1`] = `
             className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
             hiddenClassName="ant-cascader-menus-hidden"
             onBlur={[Function]}
+            onFocus={[Function]}
             onMouseDown={[Function]}
             prefixCls="ant-cascader-menus"
             style={Object {}}
@@ -1486,6 +1494,7 @@ exports[`Cascader should show not found content when options.length is 0 1`] = `
             <div
               className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
               onBlur={[Function]}
+              onFocus={[Function]}
               onMouseDown={[Function]}
               style={Object {}}
             >
