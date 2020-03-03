@@ -8446,17 +8446,18 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
     unselectable="unselectable"
   >
     <li
+      aria-disabled="true"
       class="config-pagination-disabled config-pagination-prev"
     >
       <a
         aria-disabled="true"
+        title="Previous Page"
       >
         <span
           class="config-pagination-item-link"
         >
           <i
             class="anticon anticon-left"
-            title="Previous Page"
           >
             <svg
               aria-hidden="true"
@@ -8480,7 +8481,7 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
       class="config-pagination-item config-pagination-item-0 config-pagination-disabled config-pagination-item-disabled"
     >
       <a
-        href="#none"
+        href="?page=0"
         title="0페이지"
       >
         0
@@ -8492,13 +8493,13 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
     >
       <a
         aria-disabled="true"
+        title="Next Page"
       >
         <span
           class="config-pagination-item-link"
         >
           <i
             class="anticon anticon-right"
-            title="Next Page"
           >
             <svg
               aria-hidden="true"
@@ -8587,17 +8588,18 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
     unselectable="unselectable"
   >
     <li
+      aria-disabled="true"
       class="config-pagination-disabled config-pagination-prev"
     >
       <a
         aria-disabled="true"
+        title="Previous Page"
       >
         <span
           class="config-pagination-item-link"
         >
           <i
             class="anticon anticon-left"
-            title="Previous Page"
           >
             <svg
               aria-hidden="true"
@@ -8621,7 +8623,7 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
       class="config-pagination-item config-pagination-item-0 config-pagination-disabled config-pagination-item-disabled"
     >
       <a
-        href="#none"
+        href="?page=0"
         title="0페이지"
       >
         0
@@ -8633,13 +8635,13 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
     >
       <a
         aria-disabled="true"
+        title="Next Page"
       >
         <span
           class="config-pagination-item-link"
         >
           <i
             class="anticon anticon-right"
-            title="Next Page"
           >
             <svg
               aria-hidden="true"
@@ -8733,17 +8735,18 @@ exports[`ConfigProvider components Pagination normal 1`] = `
     unselectable="unselectable"
   >
     <li
+      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
         aria-disabled="true"
+        title="Previous Page"
       >
         <span
           class="ant-pagination-item-link"
         >
           <i
             class="anticon anticon-left"
-            title="Previous Page"
           >
             <svg
               aria-hidden="true"
@@ -8767,7 +8770,7 @@ exports[`ConfigProvider components Pagination normal 1`] = `
       class="ant-pagination-item ant-pagination-item-0 ant-pagination-disabled ant-pagination-item-disabled"
     >
       <a
-        href="#none"
+        href="?page=0"
         title="0페이지"
       >
         0
@@ -8779,13 +8782,13 @@ exports[`ConfigProvider components Pagination normal 1`] = `
     >
       <a
         aria-disabled="true"
+        title="Next Page"
       >
         <span
           class="ant-pagination-item-link"
         >
           <i
             class="anticon anticon-right"
-            title="Next Page"
           >
             <svg
               aria-hidden="true"
@@ -8874,17 +8877,18 @@ exports[`ConfigProvider components Pagination normal 1`] = `
     unselectable="unselectable"
   >
     <li
+      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
         aria-disabled="true"
+        title="Previous Page"
       >
         <span
           class="ant-pagination-item-link"
         >
           <i
             class="anticon anticon-left"
-            title="Previous Page"
           >
             <svg
               aria-hidden="true"
@@ -8908,7 +8912,7 @@ exports[`ConfigProvider components Pagination normal 1`] = `
       class="ant-pagination-item ant-pagination-item-0 ant-pagination-disabled ant-pagination-item-disabled"
     >
       <a
-        href="#none"
+        href="?page=0"
         title="0페이지"
       >
         0
@@ -8920,13 +8924,13 @@ exports[`ConfigProvider components Pagination normal 1`] = `
     >
       <a
         aria-disabled="true"
+        title="Next Page"
       >
         <span
           class="ant-pagination-item-link"
         >
           <i
             class="anticon anticon-right"
-            title="Next Page"
           >
             <svg
               aria-hidden="true"
@@ -9020,17 +9024,18 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
     unselectable="unselectable"
   >
     <li
+      aria-disabled="true"
       class="prefix-Pagination-disabled prefix-Pagination-prev"
     >
       <a
         aria-disabled="true"
+        title="Previous Page"
       >
         <span
           class="prefix-Pagination-item-link"
         >
           <i
             class="anticon anticon-left"
-            title="Previous Page"
           >
             <svg
               aria-hidden="true"
@@ -9054,7 +9059,7 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
       class="prefix-Pagination-item prefix-Pagination-item-0 prefix-Pagination-disabled prefix-Pagination-item-disabled"
     >
       <a
-        href="#none"
+        href="?page=0"
         title="0페이지"
       >
         0
@@ -9066,13 +9071,13 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
     >
       <a
         aria-disabled="true"
+        title="Next Page"
       >
         <span
           class="prefix-Pagination-item-link"
         >
           <i
             class="anticon anticon-right"
-            title="Next Page"
           >
             <svg
               aria-hidden="true"
@@ -9161,17 +9166,18 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
     unselectable="unselectable"
   >
     <li
+      aria-disabled="true"
       class="prefix-Pagination-disabled prefix-Pagination-prev"
     >
       <a
         aria-disabled="true"
+        title="Previous Page"
       >
         <span
           class="prefix-Pagination-item-link"
         >
           <i
             class="anticon anticon-left"
-            title="Previous Page"
           >
             <svg
               aria-hidden="true"
@@ -9195,7 +9201,7 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
       class="prefix-Pagination-item prefix-Pagination-item-0 prefix-Pagination-disabled prefix-Pagination-item-disabled"
     >
       <a
-        href="#none"
+        href="?page=0"
         title="0페이지"
       >
         0
@@ -9207,13 +9213,13 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
     >
       <a
         aria-disabled="true"
+        title="Next Page"
       >
         <span
           class="prefix-Pagination-item-link"
         >
           <i
             class="anticon anticon-right"
-            title="Next Page"
           >
             <svg
               aria-hidden="true"

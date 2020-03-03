@@ -64,17 +64,18 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
             >
               <i
                 class="anticon anticon-left"
-                title="Previous Page"
               >
                 <svg
                   aria-hidden="true"
@@ -107,7 +108,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-2"
         >
           <a
-            href="#none"
+            href="?page=2"
             title="2페이지"
           >
             2
@@ -117,7 +118,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-3"
         >
           <a
-            href="#none"
+            href="?page=3"
             title="3페이지"
           >
             3
@@ -127,7 +128,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-4"
         >
           <a
-            href="#none"
+            href="?page=4"
             title="4페이지"
           >
             4
@@ -137,7 +138,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           class="ant-pagination-item ant-pagination-item-5"
         >
           <a
-            href="#none"
+            href="?page=5"
             title="5페이지"
           >
             5
@@ -146,18 +147,17 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         <li
           aria-disabled="false"
           class=" ant-pagination-next"
-          tabindex="0"
         >
           <a
             aria-disabled="true"
-            href="#none"
+            href="?page=2"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
             >
               <i
                 class="anticon anticon-right"
-                title="Next Page"
               >
                 <svg
                   aria-hidden="true"
@@ -1949,17 +1949,18 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
     unselectable="unselectable"
   >
     <li
+      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
         aria-disabled="true"
+        title="上一页"
       >
         <span
           class="ant-pagination-item-link"
         >
           <i
             class="anticon anticon-left"
-            title="上一页"
           >
             <svg
               aria-hidden="true"
@@ -1992,7 +1993,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       class="ant-pagination-item ant-pagination-item-2"
     >
       <a
-        href="#none"
+        href="?page=2"
         title="2페이지"
       >
         2
@@ -2002,7 +2003,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       class="ant-pagination-item ant-pagination-item-3"
     >
       <a
-        href="#none"
+        href="?page=3"
         title="3페이지"
       >
         3
@@ -2012,7 +2013,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       class="ant-pagination-item ant-pagination-item-4"
     >
       <a
-        href="#none"
+        href="?page=4"
         title="4페이지"
       >
         4
@@ -2022,7 +2023,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       class="ant-pagination-item ant-pagination-item-5"
     >
       <a
-        href="#none"
+        href="?page=5"
         title="5페이지"
       >
         5
@@ -2031,18 +2032,17 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
     <li
       aria-disabled="false"
       class=" ant-pagination-next"
-      tabindex="0"
     >
       <a
         aria-disabled="true"
-        href="#none"
+        href="?page=2"
+        title="下一页"
       >
         <span
           class="ant-pagination-item-link"
         >
           <i
             class="anticon anticon-right"
-            title="下一页"
           >
             <svg
               aria-hidden="true"

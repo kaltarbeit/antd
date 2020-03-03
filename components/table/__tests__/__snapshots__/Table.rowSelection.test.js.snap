@@ -401,17 +401,18 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
             >
               <i
                 class="anticon anticon-left"
-                title="Previous Page"
               >
                 <svg
                   aria-hidden="true"
@@ -446,13 +447,13 @@ exports[`Table.rowSelection fix selection column on the left 1`] = `
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
             >
               <i
                 class="anticon anticon-right"
-                title="Next Page"
               >
                 <svg
                   aria-hidden="true"
@@ -918,17 +919,18 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
             >
               <i
                 class="anticon anticon-left"
-                title="Previous Page"
               >
                 <svg
                   aria-hidden="true"
@@ -963,13 +965,13 @@ exports[`Table.rowSelection fix selection column on the left when any other colu
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
             >
               <i
                 class="anticon anticon-right"
-                title="Next Page"
               >
                 <svg
                   aria-hidden="true"
@@ -1212,17 +1214,18 @@ exports[`Table.rowSelection use column as selection column when key is \`selecti
         unselectable="unselectable"
       >
         <li
+          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
+            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
             >
               <i
                 class="anticon anticon-left"
-                title="Previous Page"
               >
                 <svg
                   aria-hidden="true"
@@ -1257,13 +1260,13 @@ exports[`Table.rowSelection use column as selection column when key is \`selecti
         >
           <a
             aria-disabled="true"
+            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
             >
               <i
                 class="anticon anticon-right"
-                title="Next Page"
               >
                 <svg
                   aria-hidden="true"
