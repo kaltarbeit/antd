@@ -255,7 +255,7 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
     >
       <a
         href="?page=50"
-        title="첫 페이지"
+        title="마지막 페이지"
       >
         50
       </a>
@@ -480,7 +480,7 @@ exports[`renders ./components/pagination/demo/changer.md correctly 1`] = `
     >
       <a
         href="?page=50"
-        title="첫 페이지"
+        title="마지막 페이지"
       >
         50
       </a>
@@ -810,7 +810,7 @@ exports[`renders ./components/pagination/demo/itemRender.md correctly 1`] = `
   >
     <a
       href="?page=50"
-      title="첫 페이지"
+      title="마지막 페이지"
     >
       50
     </a>
@@ -964,7 +964,7 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
     >
       <a
         href="?page=50"
-        title="첫 페이지"
+        title="마지막 페이지"
       >
         50
       </a>
@@ -1148,7 +1148,7 @@ exports[`renders ./components/pagination/demo/jump.md correctly 1`] = `
     >
       <a
         href="?page=50"
-        title="첫 페이지"
+        title="마지막 페이지"
       >
         50
       </a>
@@ -1677,7 +1677,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
   >
     <a
       href="?page=1"
-      title="마지막 페이지"
+      title="첫 페이지"
     >
       1
     </a>
@@ -1818,7 +1818,7 @@ exports[`renders ./components/pagination/demo/more.md correctly 1`] = `
   >
     <a
       href="?page=50"
-      title="첫 페이지"
+      title="마지막 페이지"
     >
       50
     </a>

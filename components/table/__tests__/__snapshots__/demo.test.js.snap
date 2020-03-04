@@ -4370,7 +4370,7 @@ exports[`renders ./components/table/demo/edit-row.md correctly 1`] = `
         >
           <a
             href="?page=10"
-            title="첫 페이지"
+            title="마지막 페이지"
           >
             10
           </a>
@@ -7542,7 +7542,7 @@ exports[`renders ./components/table/demo/fixed-columns-header.md correctly 1`] =
         >
           <a
             href="?page=10"
-            title="첫 페이지"
+            title="마지막 페이지"
           >
             10
           </a>
@@ -10128,7 +10128,7 @@ exports[`renders ./components/table/demo/grouping-columns.md correctly 1`] = `
         >
           <a
             href="?page=10"
-            title="첫 페이지"
+            title="마지막 페이지"
           >
             10
           </a>
