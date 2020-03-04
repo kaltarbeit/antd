@@ -7,7 +7,7 @@ exports[`Transfer.List should render correctly 1`] = `
   <div
     class="ant-transfer-list-header"
   >
-    <span
+    <label
       class="ant-checkbox-wrapper"
     >
       <span
@@ -22,7 +22,7 @@ exports[`Transfer.List should render correctly 1`] = `
           class="ant-checkbox-inner"
         />
       </span>
-    </span>
+    </label>
     <span
       class="ant-transfer-list-header-selected"
     >
@@ -43,7 +43,7 @@ exports[`Transfer.List should render correctly 1`] = `
       <li
         class="ant-transfer-list-content-item"
       >
-        <span
+        <label
           class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
         >
           <span
@@ -59,7 +59,7 @@ exports[`Transfer.List should render correctly 1`] = `
               class="ant-checkbox-inner"
             />
           </span>
-        </span>
+        </label>
         <span
           class="ant-transfer-list-content-item-text"
         />
@@ -67,7 +67,7 @@ exports[`Transfer.List should render correctly 1`] = `
       <li
         class="ant-transfer-list-content-item"
       >
-        <span
+        <label
           class="ant-checkbox-wrapper"
         >
           <span
@@ -82,7 +82,7 @@ exports[`Transfer.List should render correctly 1`] = `
               class="ant-checkbox-inner"
             />
           </span>
-        </span>
+        </label>
         <span
           class="ant-transfer-list-content-item-text"
         />
@@ -90,7 +90,7 @@ exports[`Transfer.List should render correctly 1`] = `
       <li
         class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
       >
-        <span
+        <label
           class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
         >
           <span
@@ -106,7 +106,7 @@ exports[`Transfer.List should render correctly 1`] = `
               class="ant-checkbox-inner"
             />
           </span>
-        </span>
+        </label>
         <span
           class="ant-transfer-list-content-item-text"
         />

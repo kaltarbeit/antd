@@ -34,12 +34,10 @@ exports[`List.pagination renders pagination correctly 1`] = `
       unselectable="unselectable"
     >
       <li
-        aria-disabled="true"
         class="ant-pagination-disabled ant-pagination-prev"
       >
         <a
           aria-disabled="true"
-          title="Previous Page"
         >
           <span
             class="ant-pagination-item-link"
@@ -78,7 +76,7 @@ exports[`List.pagination renders pagination correctly 1`] = `
         class="ant-pagination-item ant-pagination-item-2"
       >
         <a
-          href="?page=2"
+          href="#none"
           title="2페이지"
         >
           2
@@ -87,11 +85,11 @@ exports[`List.pagination renders pagination correctly 1`] = `
       <li
         aria-disabled="false"
         class=" ant-pagination-next"
+        tabindex="0"
       >
         <a
           aria-disabled="true"
-          href="?page=2"
-          title="Next Page"
+          href="#none"
         >
           <span
             class="ant-pagination-item-link"
@@ -128,12 +126,10 @@ exports[`List.pagination should change page size work 1`] = `
   unselectable="unselectable"
 >
   <li
-    aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
   >
     <a
       aria-disabled="true"
-      title="Previous Page"
     >
       <span
         class="ant-pagination-item-link"
@@ -174,7 +170,6 @@ exports[`List.pagination should change page size work 1`] = `
   >
     <a
       aria-disabled="true"
-      title="Next Page"
     >
       <span
         class="ant-pagination-item-link"
@@ -263,12 +258,10 @@ exports[`List.pagination should change page size work 2`] = `
   unselectable="unselectable"
 >
   <li
-    aria-disabled="true"
     class="ant-pagination-disabled ant-pagination-prev"
   >
     <a
       aria-disabled="true"
-      title="Previous Page"
     >
       <span
         class="ant-pagination-item-link"
@@ -309,7 +302,6 @@ exports[`List.pagination should change page size work 2`] = `
   >
     <a
       aria-disabled="true"
-      title="Next Page"
     >
       <span
         class="ant-pagination-item-link"
@@ -453,13 +445,11 @@ exports[`List.pagination should default work 1`] = `
   unselectable="unselectable"
 >
   <li
-    aria-disabled="false"
     class=" ant-pagination-prev"
   >
     <a
       aria-disabled="false"
-      href="?page=1"
-      title="Previous Page"
+      href="#none"
     >
       <span
         class="ant-pagination-item-link"
@@ -489,7 +479,7 @@ exports[`List.pagination should default work 1`] = `
     class="ant-pagination-item ant-pagination-item-1"
   >
     <a
-      href="?page=1"
+      href="#none"
       title="1페이지"
     >
       1
@@ -510,7 +500,6 @@ exports[`List.pagination should default work 1`] = `
   >
     <a
       aria-disabled="false"
-      title="Next Page"
     >
       <span
         class="ant-pagination-item-link"

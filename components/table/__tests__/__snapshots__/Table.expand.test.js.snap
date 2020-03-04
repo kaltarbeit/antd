@@ -97,12 +97,10 @@ exports[`Table.expand click to expand 1`] = `
         unselectable="unselectable"
       >
         <li
-          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
-            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -143,7 +141,6 @@ exports[`Table.expand click to expand 1`] = `
         >
           <a
             aria-disabled="true"
-            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -218,12 +215,10 @@ exports[`Table.expand should support expandIconColumnIndex 1`] = `
         unselectable="unselectable"
       >
         <li
-          aria-disabled="true"
           class="ant-pagination-disabled ant-pagination-prev"
         >
           <a
             aria-disabled="true"
-            title="Previous Page"
           >
             <span
               class="ant-pagination-item-link"
@@ -264,7 +259,6 @@ exports[`Table.expand should support expandIconColumnIndex 1`] = `
         >
           <a
             aria-disabled="true"
-            title="Next Page"
           >
             <span
               class="ant-pagination-item-link"

@@ -5905,7 +5905,7 @@ exports[`ConfigProvider components Checkbox configProvider 1`] = `
 <div
   class="config-checkbox-group"
 >
-  <span
+  <label
     class="config-checkbox-wrapper"
   >
     <span
@@ -5922,7 +5922,7 @@ exports[`ConfigProvider components Checkbox configProvider 1`] = `
     <span>
       Bamboo
     </span>
-  </span>
+  </label>
 </div>
 `;
 
@@ -5930,7 +5930,7 @@ exports[`ConfigProvider components Checkbox normal 1`] = `
 <div
   class="ant-checkbox-group"
 >
-  <span
+  <label
     class="ant-checkbox-wrapper"
   >
     <span
@@ -5947,7 +5947,7 @@ exports[`ConfigProvider components Checkbox normal 1`] = `
     <span>
       Bamboo
     </span>
-  </span>
+  </label>
 </div>
 `;
 
@@ -5955,7 +5955,7 @@ exports[`ConfigProvider components Checkbox prefixCls 1`] = `
 <div
   class="prefix-Checkbox-group"
 >
-  <span
+  <label
     class="prefix-Checkbox-wrapper"
   >
     <span
@@ -5972,7 +5972,7 @@ exports[`ConfigProvider components Checkbox prefixCls 1`] = `
     <span>
       Bamboo
     </span>
-  </span>
+  </label>
 </div>
 `;
 
@@ -8446,12 +8446,10 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="true"
       class="config-pagination-disabled config-pagination-prev"
     >
       <a
         aria-disabled="true"
-        title="Previous Page"
       >
         <span
           class="config-pagination-item-link"
@@ -8481,7 +8479,7 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
       class="config-pagination-item config-pagination-item-0 config-pagination-disabled config-pagination-item-disabled"
     >
       <a
-        href="?page=0"
+        href="#none"
         title="0페이지"
       >
         0
@@ -8493,7 +8491,6 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
     >
       <a
         aria-disabled="true"
-        title="Next Page"
       >
         <span
           class="config-pagination-item-link"
@@ -8588,12 +8585,10 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="true"
       class="config-pagination-disabled config-pagination-prev"
     >
       <a
         aria-disabled="true"
-        title="Previous Page"
       >
         <span
           class="config-pagination-item-link"
@@ -8623,7 +8618,7 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
       class="config-pagination-item config-pagination-item-0 config-pagination-disabled config-pagination-item-disabled"
     >
       <a
-        href="?page=0"
+        href="#none"
         title="0페이지"
       >
         0
@@ -8635,7 +8630,6 @@ exports[`ConfigProvider components Pagination configProvider 1`] = `
     >
       <a
         aria-disabled="true"
-        title="Next Page"
       >
         <span
           class="config-pagination-item-link"
@@ -8735,12 +8729,10 @@ exports[`ConfigProvider components Pagination normal 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
         aria-disabled="true"
-        title="Previous Page"
       >
         <span
           class="ant-pagination-item-link"
@@ -8770,7 +8762,7 @@ exports[`ConfigProvider components Pagination normal 1`] = `
       class="ant-pagination-item ant-pagination-item-0 ant-pagination-disabled ant-pagination-item-disabled"
     >
       <a
-        href="?page=0"
+        href="#none"
         title="0페이지"
       >
         0
@@ -8782,7 +8774,6 @@ exports[`ConfigProvider components Pagination normal 1`] = `
     >
       <a
         aria-disabled="true"
-        title="Next Page"
       >
         <span
           class="ant-pagination-item-link"
@@ -8877,12 +8868,10 @@ exports[`ConfigProvider components Pagination normal 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="true"
       class="ant-pagination-disabled ant-pagination-prev"
     >
       <a
         aria-disabled="true"
-        title="Previous Page"
       >
         <span
           class="ant-pagination-item-link"
@@ -8912,7 +8901,7 @@ exports[`ConfigProvider components Pagination normal 1`] = `
       class="ant-pagination-item ant-pagination-item-0 ant-pagination-disabled ant-pagination-item-disabled"
     >
       <a
-        href="?page=0"
+        href="#none"
         title="0페이지"
       >
         0
@@ -8924,7 +8913,6 @@ exports[`ConfigProvider components Pagination normal 1`] = `
     >
       <a
         aria-disabled="true"
-        title="Next Page"
       >
         <span
           class="ant-pagination-item-link"
@@ -9024,12 +9012,10 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="true"
       class="prefix-Pagination-disabled prefix-Pagination-prev"
     >
       <a
         aria-disabled="true"
-        title="Previous Page"
       >
         <span
           class="prefix-Pagination-item-link"
@@ -9059,7 +9045,7 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
       class="prefix-Pagination-item prefix-Pagination-item-0 prefix-Pagination-disabled prefix-Pagination-item-disabled"
     >
       <a
-        href="?page=0"
+        href="#none"
         title="0페이지"
       >
         0
@@ -9071,7 +9057,6 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
     >
       <a
         aria-disabled="true"
-        title="Next Page"
       >
         <span
           class="prefix-Pagination-item-link"
@@ -9166,12 +9151,10 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
     unselectable="unselectable"
   >
     <li
-      aria-disabled="true"
       class="prefix-Pagination-disabled prefix-Pagination-prev"
     >
       <a
         aria-disabled="true"
-        title="Previous Page"
       >
         <span
           class="prefix-Pagination-item-link"
@@ -9201,7 +9184,7 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
       class="prefix-Pagination-item prefix-Pagination-item-0 prefix-Pagination-disabled prefix-Pagination-item-disabled"
     >
       <a
-        href="?page=0"
+        href="#none"
         title="0페이지"
       >
         0
@@ -9213,7 +9196,6 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
     >
       <a
         aria-disabled="true"
-        title="Next Page"
       >
         <span
           class="prefix-Pagination-item-link"
@@ -11652,7 +11634,7 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                               class="config-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <span
+                              <label
                                 class="config-checkbox-wrapper"
                               >
                                 <span
@@ -11666,7 +11648,7 @@ exports[`ConfigProvider components Table configProvider 1`] = `
                                     class="config-checkbox-inner"
                                   />
                                 </span>
-                              </span>
+                              </label>
                               <span>
                                 Joe
                               </span>
@@ -11895,7 +11877,7 @@ exports[`ConfigProvider components Table normal 1`] = `
                               class="ant-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <span
+                              <label
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -11909,7 +11891,7 @@ exports[`ConfigProvider components Table normal 1`] = `
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </span>
+                              </label>
                               <span>
                                 Joe
                               </span>
@@ -12138,7 +12120,7 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                               class="ant-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <span
+                              <label
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -12152,7 +12134,7 @@ exports[`ConfigProvider components Table prefixCls 1`] = `
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </span>
+                              </label>
                               <span>
                                 Joe
                               </span>
@@ -16111,7 +16093,7 @@ exports[`ConfigProvider components Transfer configProvider 1`] = `
     <div
       class="config-transfer-list-header"
     >
-      <span
+      <label
         class="config-checkbox-wrapper"
       >
         <span
@@ -16125,7 +16107,7 @@ exports[`ConfigProvider components Transfer configProvider 1`] = `
             class="config-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="config-transfer-list-header-selected"
       >
@@ -16249,7 +16231,7 @@ exports[`ConfigProvider components Transfer configProvider 1`] = `
     <div
       class="config-transfer-list-header"
     >
-      <span
+      <label
         class="config-checkbox-wrapper"
       >
         <span
@@ -16263,7 +16245,7 @@ exports[`ConfigProvider components Transfer configProvider 1`] = `
             class="config-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="config-transfer-list-header-selected"
       >
@@ -16342,7 +16324,7 @@ exports[`ConfigProvider components Transfer normal 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -16356,7 +16338,7 @@ exports[`ConfigProvider components Transfer normal 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -16480,7 +16462,7 @@ exports[`ConfigProvider components Transfer normal 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -16494,7 +16476,7 @@ exports[`ConfigProvider components Transfer normal 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -16573,7 +16555,7 @@ exports[`ConfigProvider components Transfer prefixCls 1`] = `
     <div
       class="prefix-Transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -16587,7 +16569,7 @@ exports[`ConfigProvider components Transfer prefixCls 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="prefix-Transfer-list-header-selected"
       >
@@ -16711,7 +16693,7 @@ exports[`ConfigProvider components Transfer prefixCls 1`] = `
     <div
       class="prefix-Transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -16725,7 +16707,7 @@ exports[`ConfigProvider components Transfer prefixCls 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="prefix-Transfer-list-header-selected"
       >

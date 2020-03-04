@@ -1019,7 +1019,7 @@ exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
         <span
           class="ant-form-item-children"
         >
-          <span
+          <label
             class="ant-checkbox-wrapper"
           >
             <span
@@ -1036,7 +1036,7 @@ exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
             <span>
               Nickname is required
             </span>
-          </span>
+          </label>
         </span>
       </div>
     </div>
@@ -1580,7 +1580,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
         <span
           class="ant-form-item-children"
         >
-          <span
+          <label
             class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
           >
             <span
@@ -1601,7 +1601,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
             <span>
               Remember me
             </span>
-          </span>
+          </label>
           <a
             class="login-form-forgot"
             href=""
@@ -2291,7 +2291,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
         <span
           class="ant-form-item-children"
         >
-          <span
+          <label
             class="ant-checkbox-wrapper"
           >
             <span
@@ -2316,7 +2316,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                 agreement
               </a>
             </span>
-          </span>
+          </label>
         </span>
       </div>
     </div>
@@ -3867,7 +3867,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               <div
                 class="ant-col ant-col-8"
               >
-                <span
+                <label
                   class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
                 >
                   <span
@@ -3886,12 +3886,12 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   <span>
                     A
                   </span>
-                </span>
+                </label>
               </div>
               <div
                 class="ant-col ant-col-8"
               >
-                <span
+                <label
                   class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-wrapper-disabled"
                 >
                   <span
@@ -3911,12 +3911,12 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   <span>
                     B
                   </span>
-                </span>
+                </label>
               </div>
               <div
                 class="ant-col ant-col-8"
               >
-                <span
+                <label
                   class="ant-checkbox-wrapper"
                 >
                   <span
@@ -3934,12 +3934,12 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   <span>
                     C
                   </span>
-                </span>
+                </label>
               </div>
               <div
                 class="ant-col ant-col-8"
               >
-                <span
+                <label
                   class="ant-checkbox-wrapper"
                 >
                   <span
@@ -3957,12 +3957,12 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   <span>
                     D
                   </span>
-                </span>
+                </label>
               </div>
               <div
                 class="ant-col ant-col-8"
               >
-                <span
+                <label
                   class="ant-checkbox-wrapper"
                 >
                   <span
@@ -3980,7 +3980,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   <span>
                     E
                   </span>
-                </span>
+                </label>
               </div>
             </div>
           </div>

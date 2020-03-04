@@ -11,7 +11,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -25,7 +25,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -203,7 +203,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -217,7 +217,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -344,7 +344,7 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
       <div
         class="ant-transfer-list-header"
       >
-        <span
+        <label
           class="ant-checkbox-wrapper"
         >
           <span
@@ -358,7 +358,7 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
               class="ant-checkbox-inner"
             />
           </span>
-        </span>
+        </label>
         <span
           class="ant-transfer-list-header-selected"
         >
@@ -495,7 +495,7 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
       <div
         class="ant-transfer-list-header"
       >
-        <span
+        <label
           class="ant-checkbox-wrapper"
         >
           <span
@@ -509,7 +509,7 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
               class="ant-checkbox-inner"
             />
           </span>
-        </span>
+        </label>
         <span
           class="ant-transfer-list-header-selected"
         >
@@ -584,7 +584,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -598,7 +598,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -723,7 +723,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -737,7 +737,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -816,7 +816,7 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -830,7 +830,7 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -954,7 +954,7 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -968,7 +968,7 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -1047,7 +1047,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -1061,7 +1061,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -1219,7 +1219,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
     <div
       class="ant-transfer-list-header"
     >
-      <span
+      <label
         class="ant-checkbox-wrapper"
       >
         <span
@@ -1233,7 +1233,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
             class="ant-checkbox-inner"
           />
         </span>
-      </span>
+      </label>
       <span
         class="ant-transfer-list-header-selected"
       >
@@ -1410,7 +1410,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                     <div
                                       class="ant-table-selection"
                                     >
-                                      <span
+                                      <label
                                         class="ant-checkbox-wrapper"
                                       >
                                         <span
@@ -1424,7 +1424,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                             class="ant-checkbox-inner"
                                           />
                                         </span>
-                                      </span>
+                                      </label>
                                     </div>
                                   </span>
                                   <span
@@ -1500,7 +1500,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
                                 >
                                   <span
@@ -1515,7 +1515,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1546,7 +1546,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -1560,7 +1560,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1591,7 +1591,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -1605,7 +1605,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1636,7 +1636,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
                                 >
                                   <span
@@ -1651,7 +1651,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1682,7 +1682,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -1696,7 +1696,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1727,7 +1727,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -1741,7 +1741,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1772,7 +1772,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -1786,7 +1786,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1817,7 +1817,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -1831,7 +1831,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1862,7 +1862,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
                                 >
                                   <span
@@ -1877,7 +1877,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1908,7 +1908,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -1922,7 +1922,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -1955,12 +1955,10 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                   unselectable="unselectable"
                 >
                   <li
-                    aria-disabled="true"
                     class="ant-pagination-disabled ant-pagination-prev"
                   >
                     <a
                       aria-disabled="true"
-                      title="Previous Page"
                     >
                       <span
                         class="ant-pagination-item-link"
@@ -1999,7 +1997,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                     class="ant-pagination-item ant-pagination-item-2"
                   >
                     <a
-                      href="?page=2"
+                      href="#none"
                       title="2페이지"
                     >
                       2
@@ -2008,11 +2006,11 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                   <li
                     aria-disabled="false"
                     class=" ant-pagination-next"
+                    tabindex="0"
                   >
                     <a
                       aria-disabled="true"
-                      href="?page=2"
-                      title="Next Page"
+                      href="#none"
                     >
                       <span
                         class="ant-pagination-item-link"
@@ -2164,7 +2162,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                     <div
                                       class="ant-table-selection"
                                     >
-                                      <span
+                                      <label
                                         class="ant-checkbox-wrapper"
                                       >
                                         <span
@@ -2178,7 +2176,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                             class="ant-checkbox-inner"
                                           />
                                         </span>
-                                      </span>
+                                      </label>
                                     </div>
                                   </span>
                                   <span
@@ -2218,7 +2216,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -2232,7 +2230,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -2249,7 +2247,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -2263,7 +2261,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -2280,7 +2278,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
                                 >
                                   <span
@@ -2295,7 +2293,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -2312,7 +2310,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -2326,7 +2324,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -2343,7 +2341,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -2357,7 +2355,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -2374,7 +2372,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                               class="ant-table-selection-column"
                             >
                               <span>
-                                <span
+                                <label
                                   class="ant-checkbox-wrapper"
                                 >
                                   <span
@@ -2388,7 +2386,7 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                                       class="ant-checkbox-inner"
                                     />
                                   </span>
-                                </span>
+                                </label>
                               </span>
                             </td>
                             <td
@@ -2407,12 +2405,10 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                   unselectable="unselectable"
                 >
                   <li
-                    aria-disabled="true"
                     class="ant-pagination-disabled ant-pagination-prev"
                   >
                     <a
                       aria-disabled="true"
-                      title="Previous Page"
                     >
                       <span
                         class="ant-pagination-item-link"
@@ -2453,7 +2449,6 @@ exports[`renders ./components/transfer/demo/table-transfer.md correctly 1`] = `
                   >
                     <a
                       aria-disabled="true"
-                      title="Next Page"
                     >
                       <span
                         class="ant-pagination-item-link"

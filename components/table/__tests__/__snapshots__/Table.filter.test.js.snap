@@ -438,7 +438,7 @@ exports[`Table.filter renders menu correctly 1`] = `
           class="ant-dropdown-menu-item"
           role="menuitem"
         >
-          <span
+          <label
             class="ant-checkbox-wrapper"
           >
             <span
@@ -452,7 +452,7 @@ exports[`Table.filter renders menu correctly 1`] = `
                 class="ant-checkbox-inner"
               />
             </span>
-          </span>
+          </label>
           <span>
             Boy
           </span>
@@ -461,7 +461,7 @@ exports[`Table.filter renders menu correctly 1`] = `
           class="ant-dropdown-menu-item"
           role="menuitem"
         >
-          <span
+          <label
             class="ant-checkbox-wrapper"
           >
             <span
@@ -475,7 +475,7 @@ exports[`Table.filter renders menu correctly 1`] = `
                 class="ant-checkbox-inner"
               />
             </span>
-          </span>
+          </label>
           <span>
             Girl
           </span>
@@ -695,7 +695,7 @@ exports[`Table.filter should support getPopupContainer 1`] = `
                               class="ant-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <span
+                              <label
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -710,7 +710,7 @@ exports[`Table.filter should support getPopupContainer 1`] = `
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </span>
+                              </label>
                               <span>
                                 Boy
                               </span>
@@ -719,7 +719,7 @@ exports[`Table.filter should support getPopupContainer 1`] = `
                               class="ant-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <span
+                              <label
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -734,7 +734,7 @@ exports[`Table.filter should support getPopupContainer 1`] = `
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </span>
+                              </label>
                               <span>
                                 Girl
                               </span>
@@ -913,7 +913,7 @@ exports[`Table.filter should support getPopupContainer from ConfigProvider 1`] =
                               class="ant-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <span
+                              <label
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -928,7 +928,7 @@ exports[`Table.filter should support getPopupContainer from ConfigProvider 1`] =
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </span>
+                              </label>
                               <span>
                                 Boy
                               </span>
@@ -937,7 +937,7 @@ exports[`Table.filter should support getPopupContainer from ConfigProvider 1`] =
                               class="ant-dropdown-menu-item"
                               role="menuitem"
                             >
-                              <span
+                              <label
                                 class="ant-checkbox-wrapper"
                               >
                                 <span
@@ -952,7 +952,7 @@ exports[`Table.filter should support getPopupContainer from ConfigProvider 1`] =
                                     class="ant-checkbox-inner"
                                   />
                                 </span>
-                              </span>
+                              </label>
                               <span>
                                 Girl
                               </span>
