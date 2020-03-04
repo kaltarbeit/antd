@@ -152,7 +152,7 @@ class Checkbox extends React.Component<CheckboxProps, {}> {
     });
     return (
       // eslint-disable-next-line jsx-a11y/label-has-associated-control
-      <span
+      <label
         className={classString}
         style={style}
         onMouseEnter={onMouseEnter}
@@ -165,7 +165,7 @@ class Checkbox extends React.Component<CheckboxProps, {}> {
           ref={this.saveCheckbox}
         />
         {children !== undefined && <span>{children}</span>}
-      </span>
+      </label>
     );
   };
 
