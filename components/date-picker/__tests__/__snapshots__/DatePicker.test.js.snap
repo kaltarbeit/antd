@@ -8,7 +8,6 @@ exports[`DatePicker disabled date 1`] = `
     <input
       class="ant-calendar-picker-input ant-input"
       placeholder="Select date"
-      readonly=""
       value=""
     />
     <i
@@ -43,7 +42,6 @@ exports[`DatePicker prop locale should works 1`] = `
     <input
       class="ant-calendar-picker-input ant-input"
       placeholder="Избери дата"
-      readonly=""
       value="2000-01-01"
     />
     <i

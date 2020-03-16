@@ -304,7 +304,6 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           <input
             class="ant-calendar-picker-input ant-input"
             placeholder="Select date"
-            readonly=""
             value=""
           />
           <i

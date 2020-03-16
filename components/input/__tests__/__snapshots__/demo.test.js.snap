@@ -385,7 +385,6 @@ exports[`renders ./components/input/demo/align.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -696,7 +695,6 @@ exports[`renders ./components/input/demo/align.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -1156,7 +1154,6 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
         <input
           class="ant-calendar-picker-input ant-input"
           placeholder="Select date"
-          readonly=""
           value=""
         />
         <i

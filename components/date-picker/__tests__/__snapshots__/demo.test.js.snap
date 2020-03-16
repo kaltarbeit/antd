@@ -9,7 +9,6 @@ exports[`renders ./components/date-picker/demo/basic.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -40,7 +39,6 @@ exports[`renders ./components/date-picker/demo/basic.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select month"
-        readonly=""
         value=""
       />
       <i
@@ -155,7 +153,6 @@ exports[`renders ./components/date-picker/demo/date-render.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -237,7 +234,6 @@ exports[`renders ./components/date-picker/demo/disabled.md correctly 1`] = `
         class="ant-calendar-picker-input ant-input ant-input-disabled"
         disabled=""
         placeholder="Select date"
-        readonly=""
         value="2015-06-06"
       />
       <i
@@ -269,7 +265,6 @@ exports[`renders ./components/date-picker/demo/disabled.md correctly 1`] = `
         class="ant-calendar-picker-input ant-input ant-input-disabled"
         disabled=""
         placeholder="Select date"
-        readonly=""
         value="2015-06"
       />
       <i
@@ -354,7 +349,6 @@ exports[`renders ./components/date-picker/demo/disabled-date.md correctly 1`] = 
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -385,7 +379,6 @@ exports[`renders ./components/date-picker/demo/disabled-date.md correctly 1`] = 
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select month"
-        readonly=""
         value=""
       />
       <i
@@ -468,7 +461,6 @@ exports[`renders ./components/date-picker/demo/extra-footer.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -499,7 +491,6 @@ exports[`renders ./components/date-picker/demo/extra-footer.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -622,7 +613,6 @@ exports[`renders ./components/date-picker/demo/extra-footer.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select month"
-        readonly=""
         value=""
       />
       <i
@@ -657,7 +647,6 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value="2015/01/01"
       />
       <i
@@ -707,7 +696,6 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value="01/01/2015"
       />
       <i
@@ -757,7 +745,6 @@ exports[`renders ./components/date-picker/demo/format.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value="2015/01"
       />
       <i
@@ -878,7 +865,6 @@ exports[`renders ./components/date-picker/demo/mode.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -1123,7 +1109,6 @@ exports[`renders ./components/date-picker/demo/size.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -1154,7 +1139,6 @@ exports[`renders ./components/date-picker/demo/size.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select Month"
-        readonly=""
         value=""
       />
       <i
@@ -1270,7 +1254,6 @@ exports[`renders ./components/date-picker/demo/start-end.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Start"
-        readonly=""
         value=""
       />
       <i
@@ -1301,7 +1284,6 @@ exports[`renders ./components/date-picker/demo/start-end.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="End"
-        readonly=""
         value=""
       />
       <i
@@ -1336,7 +1318,6 @@ exports[`renders ./components/date-picker/demo/suffix.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <i
@@ -1367,7 +1348,6 @@ exports[`renders ./components/date-picker/demo/suffix.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select month"
-        readonly=""
         value=""
       />
       <i
@@ -1478,7 +1458,6 @@ exports[`renders ./components/date-picker/demo/suffix.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
-        readonly=""
         value=""
       />
       <span
@@ -1496,7 +1475,6 @@ exports[`renders ./components/date-picker/demo/suffix.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select month"
-        readonly=""
         value=""
       />
       <span
@@ -1573,7 +1551,6 @@ exports[`renders ./components/date-picker/demo/time.md correctly 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select Time"
-        readonly=""
         value=""
       />
       <i
