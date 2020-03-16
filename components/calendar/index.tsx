@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import * as moment from 'moment';
-import FullCalendar from 'rc-calendar/lib/FullCalendar';
+import FullCalendar from '@kaltarbeit/rc-calendar/lib/FullCalendar';
 import { polyfill } from 'react-lifecycles-compat';
 import Header, { HeaderRender } from './Header';
 import enUS from './locale/en_US';

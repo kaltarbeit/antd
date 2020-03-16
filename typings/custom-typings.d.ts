@@ -8,7 +8,7 @@ declare module '*.svg' {
   export default src;
 }
 
-declare module 'rc-calendar*';
+declare module '@kaltarbeit/rc-calendar*';
 
 declare module 'rc-time-picker*';
 

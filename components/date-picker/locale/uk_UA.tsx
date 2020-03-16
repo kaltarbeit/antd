@@ -1,4 +1,4 @@
-import CalendarLocale from 'rc-calendar/lib/locale/uk_UA';
+import CalendarLocale from '@kaltarbeit/rc-calendar/lib/locale/uk_UA';
 import TimePickerLocale from '../../time-picker/locale/uk_UA';
 
 const locale = {

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as moment from 'moment';
 import { polyfill } from 'react-lifecycles-compat';
-import MonthCalendar from 'rc-calendar/lib/MonthCalendar';
-import RcDatePicker from 'rc-calendar/lib/Picker';
+import MonthCalendar from '@kaltarbeit/rc-calendar/lib/MonthCalendar';
+import RcDatePicker from '@kaltarbeit/rc-calendar/lib/Picker';
 import classNames from 'classnames';
 import omit from 'omit.js';
 import Icon from '../icon';

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as moment from 'moment';
 import { polyfill } from 'react-lifecycles-compat';
-import Calendar from 'rc-calendar';
-import RcDatePicker from 'rc-calendar/lib/Picker';
+import Calendar from '@kaltarbeit/rc-calendar';
+import RcDatePicker from '@kaltarbeit/rc-calendar/lib/Picker';
 import classNames from 'classnames';
 import Icon from '../icon';
 import { ConfigConsumer, ConfigConsumerProps } from '../config-provider';

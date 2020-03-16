@@ -1,4 +1,4 @@
-import CalendarLocale from 'rc-calendar/lib/locale/fa_IR';
+import CalendarLocale from '@kaltarbeit/rc-calendar/lib/locale/fa_IR';
 import TimePickerLocale from '../../time-picker/locale/fa_IR';
 
 // Merge into a locale object

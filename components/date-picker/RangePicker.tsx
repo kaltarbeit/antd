@@ -2,8 +2,8 @@
 import * as React from 'react';
 import * as moment from 'moment';
 import { polyfill } from 'react-lifecycles-compat';
-import RangeCalendar from 'rc-calendar/lib/RangeCalendar';
-import RcDatePicker from 'rc-calendar/lib/Picker';
+import RangeCalendar from '@kaltarbeit/rc-calendar/lib/RangeCalendar';
+import RcDatePicker from '@kaltarbeit/rc-calendar/lib/Picker';
 import classNames from 'classnames';
 import shallowequal from 'shallowequal';
 import Icon from '../icon';
