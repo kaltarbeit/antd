@@ -2607,6 +2607,7 @@ exports[`renders ./components/form/demo/style-check-debug.md correctly 1`] = `
                     <input
                       class="ant-calendar-picker-input ant-input"
                       placeholder="Select date"
+                      readonly=""
                       value=""
                     />
                     <i
@@ -2755,6 +2756,7 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
               <input
                 class="ant-calendar-picker-input ant-input"
                 placeholder="Select date"
+                readonly=""
                 value=""
               />
               <i
@@ -2822,6 +2824,7 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
               <input
                 class="ant-calendar-picker-input ant-input"
                 placeholder="Select date"
+                readonly=""
                 value=""
               />
               <i
@@ -2888,6 +2891,7 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
               <input
                 class="ant-calendar-picker-input ant-input"
                 placeholder="Select date"
+                readonly=""
                 value=""
               />
               <i
@@ -4726,6 +4730,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               <input
                 class="ant-calendar-picker-input ant-input"
                 placeholder="Select date"
+                readonly=""
                 value=""
               />
               <i
@@ -5101,6 +5106,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                       <input
                         class="ant-calendar-picker-input ant-input"
                         placeholder="Select date"
+                        readonly=""
                         value=""
                       />
                       <i
@@ -5157,6 +5163,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                       <input
                         class="ant-calendar-picker-input ant-input"
                         placeholder="Select date"
+                        readonly=""
                         value=""
                       />
                       <i

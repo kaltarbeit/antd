@@ -6255,6 +6255,7 @@ exports[`ConfigProvider components DatePicker DatePicker configProvider 1`] = `
       <input
         class="config-calendar-picker-input config-input"
         placeholder="Select date"
+        readonly=""
         value=""
       />
       <i
@@ -6289,6 +6290,7 @@ exports[`ConfigProvider components DatePicker DatePicker normal 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
+        readonly=""
         value=""
       />
       <i
@@ -6323,6 +6325,7 @@ exports[`ConfigProvider components DatePicker DatePicker prefixCls 1`] = `
       <input
         class="prefix-DatePicker-picker-input ant-input"
         placeholder="Select date"
+        readonly=""
         value=""
       />
       <i
@@ -6357,6 +6360,7 @@ exports[`ConfigProvider components DatePicker MonthPicker configProvider 1`] = `
       <input
         class="config-calendar-picker-input config-input"
         placeholder="Select date"
+        readonly=""
         value=""
       />
       <i
@@ -6391,6 +6395,7 @@ exports[`ConfigProvider components DatePicker MonthPicker normal 1`] = `
       <input
         class="ant-calendar-picker-input ant-input"
         placeholder="Select date"
+        readonly=""
         value=""
       />
       <i
@@ -6425,6 +6430,7 @@ exports[`ConfigProvider components DatePicker MonthPicker prefixCls 1`] = `
       <input
         class="prefix-MonthPicker-picker-input ant-input"
         placeholder="Select date"
+        readonly=""
         value=""
       />
       <i

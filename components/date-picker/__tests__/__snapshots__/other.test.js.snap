@@ -1003,6 +1003,7 @@ exports[`Picker format by locale date 1`] = `
     <input
       class="ant-calendar-picker-input ant-input"
       placeholder="请选择日期"
+      readonly=""
       value="2000 年 1 月 1 日"
     />
     <i
@@ -1055,6 +1056,7 @@ exports[`Picker format by locale dateTime 1`] = `
     <input
       class="ant-calendar-picker-input ant-input"
       placeholder="请选择日期"
+      readonly=""
       value="2000 年 1 月 1 日 0 时 0 分 0 秒"
     />
     <i
@@ -1106,6 +1108,7 @@ exports[`Picker format by locale month 1`] = `
     <input
       class="ant-calendar-picker-input ant-input"
       placeholder="请选择日期"
+      readonly=""
       value="2000 年 1 月"
     />
     <i
