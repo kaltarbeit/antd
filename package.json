@@ -1,6 +1,6 @@
 {
   "name": "antd",
-  "version": "3.26.9-ksd.26",
+  "version": "3.26.9-ksd.27",
   "description": "An enterprise-class UI design language and React components implementation",
   "keywords": [
     "ant",
@@ -109,7 +109,7 @@
     "raf": "^3.4.1",
     "@kaltarbeit/rc-dropdown": "2.4.1-ksd.9",
     "@kaltarbeit/rc-select": "9.2.3-ksd.3",
-    "@kaltarbeit/rc-pagination": "1.20.13-ksd.7",
+    "@kaltarbeit/rc-pagination": "1.20.13-ksd.9",
     "@kaltarbeit/rc-table": "6.10.11-ksd.3",
     "@kaltarbeit/rc-trigger": "2.6.2-ksd.10",
     "@kaltarbeit/rc-calendar": "9.15.8-ksd.4",
